@@ -67,3 +67,9 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
+
+
+#translations with fast_gettext
+gem 'gettext_i18n_rails'
+gem 'gettext', '>=3.0.2', :require => false, :group => :development
+gem 'ruby_parser', :require => false, :group => :development
