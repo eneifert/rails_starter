@@ -17,6 +17,6 @@
 *= bootstrap
 *= bootstrap-select.min
 *= bootswatch.min
+*= font-awesome
 *= styles
 */
-@import "font-awesome"; 
