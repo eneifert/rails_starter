@@ -66,6 +66,8 @@ end
 # gem 'debugger', group: [:development, :test]
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
+gem 'binding_of_caller'
+gem 'validates_formatting_of'
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
 
 

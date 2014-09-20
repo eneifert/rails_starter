@@ -15,7 +15,8 @@
 *= require_self
 *= bootstrap-sprockets
 *= bootstrap
+*= bootstrap-select.min
 *= bootswatch.min
 *= styles
 */
-@import "font-awesome";
+@import "font-awesome"; 
