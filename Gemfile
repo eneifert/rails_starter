@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 
 # used for setting the ruby version. EX:
 # C:\Users\Eric\Documents\GitHub\kamkorduk> pik list
