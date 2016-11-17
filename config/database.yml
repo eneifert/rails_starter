@@ -9,22 +9,6 @@ default: &default
   pool: 5
   timeout: 5000
 
-# development:
-#   adapter: postgresql  
-#   database: dutchnature
-#   hostname: 127.0.0.1
-#   port: 5433  
-#   username: postgres
-#   password: pa55word
-
-# test:
-#   adapter: postgresql  
-#   database: dutchnature_test
-#   hostname: 127.0.0.1
-#   port: 5433  
-#   username: postgres
-#   password: pa55word
-
 development:
   <<: *default
   database: db/development.sqlite3
@@ -37,10 +21,5 @@ test:
   database: db/test.sqlite3
 
 production:
-  production:
-  adapter: postgresql           
-  database: encompass_maps
-  host: localhost
-  username: encompass_maps_user
-  password: pa55word 
-
+  <<: *default
+  database: db/production.sqlite3

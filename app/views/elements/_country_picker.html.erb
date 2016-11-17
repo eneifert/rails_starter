@@ -1,5 +1,0 @@
-<select class="country-picker" name="<%= model_name %>" id="country_picker_<%= id %>">
-	<% Country.all.each do |c| %>		
-		<option value="<%= c.id %>" <%= c.id == country_id ? 'selected' : '' %>><%= c.name %></option>
-	<% end %>
-</select>
