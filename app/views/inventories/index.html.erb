@@ -1,0 +1,78 @@
+<div class="page-header">
+  <% if can? :create, Inventory %>
+    <%= link_to new_inventory_path, :class => 'btn btn-primary' do %>
+      <span class="glyphicon glyphicon-plus"></span>
+      <%= _('New Inventory Delivery') %>
+    <% end %>
+  <% end %>  
+  <%= render :partial => 'elements/header_with_print', :locals => {header: _('Listing inventories') } %>  
+</div>
+
+<div class="row">
+  
+    <%= form_tag inventories_path, :method => 'get' do %>
+      
+      <%= hidden_field_tag 'sort_column', sort_column %>
+      <%= hidden_field_tag 'sort_direction', sort_direction %>
+
+      <div class="col-sm-6 col-lg-2">
+        <div class="form-group">
+          <input type="text" name="search" id="search" class="form-control" placeholder="<%= _('Search') %>" value="<%= params[:search] %>">          
+        </div>              
+      </div>
+      <div class="col-sm-4 col-lg-2">
+        <div class="form-group">        
+          <%= select_tag(:product_category, options_for_select(ProductTypes::select_options(true)), { :class => 'selectpicker show-tick', 'data-width' => '100%', 'data-selected' => params[:product_category] }) %>            
+        </div>
+      </div>
+      <div class="col-sm-4 col-lg-2">
+        <div class="form-group">        
+          <%= select_tag(:location_id, options_for_select(Location::select_options(true)), { :class => 'selectpicker show-tick', 'data-width' => '100%', 'data-selected' => params[:location_id] }) %>          
+        </div>
+      </div>            
+      <div class="col-sm-3">
+        <button type="submit" class="btn btn-default"><%= _('Submit') %></button>
+      </div>
+                              
+    <% end %>
+
+</div>
+
+<div class="row">
+  <table class="table table-striped table-bordered table-hover table-condensed index-table">
+    <thead>
+      <tr>
+            <th class="id-col"><%= sortable "id", "Id" %></th>
+            <th><%= sortable "product_types.name", _('Product type') %></th>
+            <th><%= sortable "amount", _('Amount (kg)') %></th>
+            <th><%= sortable "purchased_price", _('Purchased price') %></th>
+            <th><%= sortable "purchased_date", _('Delivered date') %></th>
+            <th><%= sortable "locations.name", _('Location') %></th>            
+            
+        <th></th>        
+      </tr>
+    </thead>
+
+    <tbody>
+      <%= content_tag_for(:tr, @inventories) do |inventory| %>
+    <td><%= link_to inventory.id, inventory %></td>
+            <td><%= link_to inventory.product_type.display_name, edit_product_type_path(inventory.product_type) %></td>
+            <td><%= inventory.amount.round(2) %></td>
+            <td><%= inventory.purchased_price.nil? ? "" : inventory.purchased_price.round(2) %></td>
+            <td><%= pretty_datetime(inventory.purchased_date) %></td>
+            <td><%= inventory.location.nil? ? '' : inventory.location.name %></td>            
+            
+        <td>
+          <% if can? :update, inventory %>
+            <%= link_to _('Edit'), edit_inventory_path(inventory), { :class=>"btn btn-primary" } %>
+          <% end %>
+          <% if can? :destroy, inventory %>
+            <%= link_to _('Destroy'), inventory, method: :delete, data: { confirm: _('Are you sure?')}, :class=>"btn btn-danger"  %>
+          <% end %>
+        </td>        
+      <% end %>
+    </tbody>
+  </table>
+</div>
+
+<%= paginate @inventories, params: get_index_params %>

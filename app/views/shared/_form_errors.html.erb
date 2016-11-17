@@ -1,0 +1,17 @@
+<% show_title = nil_or_undefined?(show_title) ? true : show_title %>
+
+<% if !mymodel.nil? && mymodel.errors.any? %>
+  <div class="alert alert-danger alert-dismissable" role="alert">
+    <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+
+    <% if show_title %>
+    	<h4><%= pluralize(mymodel.errors.count, "error") %> <%= _('prohibited this from being saved') %>:</h4>
+    <% end %>
+
+    <ul>
+    <% mymodel.errors.full_messages.each do |msg| %>
+      <li><%= msg %></li>
+    <% end %>
+    </ul>
+  </div>
+<% end %>

@@ -1,0 +1,10 @@
+<% show_clear = nil_or_undefined?(show_clear) ? nil : show_clear %>
+<% pick_date = nil_or_undefined?(pick_date) ? true : pick_date %>
+<% pick_time = nil_or_undefined?(pick_time) ? true : pick_time %>
+
+<!-- NOTE: The locale has to be EN for now since rails isn't parsing Russian dates correctly -->
+<div <%= defined?(id_tag) ? "id=#{id_tag}" : '' %> class='input-group date datetimepicker' data-show-clear="<%= show_clear.nil? ? 'false' : 'true' %>" data-value="<%= value.nil? || value.blank? ? '' : value.to_datetime.strftime("%Y-%m-%dT%H:%M:%S") %>" data-locale="en" data-pick-date="<%= pick_date %>", data-pick-time="<%= pick_time %>">    
+    <input type='text' class="form-control" name='<%= model_name.blank? ? field_name : "#{model_name}[#{field_name}]" %>' />    
+    <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span>
+    </span>
+</div> 

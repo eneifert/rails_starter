@@ -1,0 +1,23 @@
+<% show_all = false if !defined?(show_all) %>	
+<% show_price = false if !defined?(show_price) %>	
+
+
+<select class="product-picker" name="<%= model_name %>" id="product_picker_<%= id %>" data-placeholder="<%= defined?(placeholder) ? placeholder : '' %>">
+	<% if defined?(placeholder) %>
+		<option></option>
+	<% end %>
+	<% order_name = I18n.locale == :en ? "name" : "name_ru" %>	
+	<% categories ||= ProductTypes::all_categories_ingredients_first %>
+	
+	<% if show_all %>
+		<option value="all"><%= _("All") %></option>		
+	<% end %>
+	<% categories.each do |cat| %>		
+		<optgroup label="<%= ProductTypes::get_name_by_id(cat) %>">		    	
+			<% ProductType.where("type = ?", cat).order(order_name).each do |prod| %>					
+				<option value="<%= prod.id %>" <%= prod.id == product_type_id ? 'selected' : '' %>><%= prod.display_name + (show_price && !prod.price_per_kilo.nil? ? " (#{prod.price_per_kilo} som)" : "") %></option>
+			<% end %>
+		</optgroup>
+	<% end %>
+	
+</select>

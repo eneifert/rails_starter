@@ -1,0 +1,72 @@
+<%= form_for(@user, :html => { :role => "form" }) do |f| %>
+  <% if @user.errors.any? %>
+    <div class="alert alert-danger alert-dismissable">
+      <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+      <h4><%= pluralize(@user.errors.count, "error") %> <%= _('prohibited this admin_user from being saved:') %></h4>
+
+      <ul>
+      <% @user.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <%= f.hidden_field :original_updated_at %>
+
+  <div class='row'>
+    <div class='col-sm-6 col-lg-3'>    
+        <div class='form-group'>
+            <%= f.label :name %>
+            <%= f.text_field :name, :class => "form-control" %>
+        </div>
+    </div> 
+    <div class='col-sm-6 col-lg-3'>    
+        <div class='form-group'>
+            <%= f.label :location_id, _("Location") %>            
+            <%= f.select(:location_id, options_for_select(Location::active_select_options), {}, { :class => 'selectpicker show-tick', 'data-width' => '100%', 'data-selected' => @user.location_id}) %>
+        </div>
+    </div>
+  </div> 
+  <div class='row'>
+    <div class='col-sm-3 col-lg-3'>    
+        <div class='form-group'>
+            <%= f.label :email %>
+            <%= f.text_field :email, :class => "form-control" %>
+        </div>
+    </div> 
+  </div>  
+  <div class='row'>
+    <div class='col-sm-3 col-lg-3'>    
+        <div class='form-group'>
+            <%= f.label :password %>
+            <%= f.text_field :password, :class => "form-control" %>
+        </div>
+    </div> 
+  </div>  
+
+  <div class="row">
+    <table class="table table-striped table-condensed table-bordered form_table">
+      <thead>
+        <tr>        
+          <th style="width:130px;">Role</th>
+          <th></th>          
+        </tr>
+      </thead>
+      <tbody>              
+        <% Role.all.each do |role| %>
+          <tr>
+            <td><%= role.name %></td>                          
+            <td><input type="checkbox" class="large-checkbox" name="<%= "user[roles[#{role.id}]]"  %>" <%= @user.roles.exists?(name: role.name) ? "checked='checked'" : '' %>></td>              
+          </tr>      
+        <% end %>        
+      </tbody>
+    </table>
+  </div>
+  
+  <div class='row'>
+    <div class='col-sm-3'>    
+        <%= f.submit :class => "btn btn-primary" %>
+    </div> 
+  </div>    
+<% end %>

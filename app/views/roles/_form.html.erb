@@ -1,0 +1,98 @@
+<%= form_for(@role, :html => {:role => "form" }) do |f| %>
+  <%= render :partial => 'shared/form_errors', :locals => {mymodel: @role } %>
+
+  <%= f.hidden_field :original_updated_at %>
+
+  <div class='row'>
+    <div class='col-sm-3'>    
+        <div class='form-group'>
+            <%= f.label :name %>
+            <%= f.text_field :name, :class => "form-control" %>
+        </div>
+    </div> 
+  </div>  
+
+<div class="row">
+  <table class="table table-striped table-condensed table-bordered roles_table">
+    <thead>
+      <tr>        
+        <th style="width:130px;">Permissions</th>
+        <th>All</th>
+        <th>Read</th>
+        <th>Write</th>
+        <th>Delete</th>
+      </tr>
+    </thead>
+    <tbody>      
+      <% perm_controllers = Permission.uniq.pluck(:subject_class) - ["all", "Permission"] %>
+      <% perm_controllers.each do |pc| %>
+        <tr>
+          <td><%= pc %></td>
+          <% ['all', 'read', 'write', 'delete'].each do |action| %>
+            
+            <td><input type="checkbox" class="permission_checkbox <%= action == 'all' ? 'perm-all' : '' %>" name="<%= "role[permissions[#{pc}[#{action}]]]"  %>" <%= @role.permissions.exists?(action: action, subject_class: pc) ? "checked='checked'" : '' %>></td>  
+          <% end %>          
+        </tr>      
+      <% end %>        
+    </tbody>
+  </table>
+</div>
+
+<div class='row'>
+  <div class='col-sm-4 col-lg-3'>    
+      <div class='form-group'>
+          <label for="can_print_batch_sheets"><%= _('Can Print Batch sheets') %></label>          
+          <input id="can_print_batch_sheets" name="role[can_print_batch_sheets]" class="form-control" type="checkbox" <%= checkbox_checked(@role.can_print_batch_sheets) %>>
+      </div>
+  </div>
+  <div class='col-sm-4 col-lg-3'>    
+      <div class='form-group'>
+          <label for="can_upload_rations"><%= _('Can upload rations') %></label>          
+          <input id="can_upload_rations" name="role[can_upload_rations]" class="form-control" type="checkbox" <%= checkbox_checked(@role.can_upload_rations) %>>
+      </div>
+  </div>
+  <div class='col-sm-4 col-lg-3'>    
+      <div class='form-group'>
+          <label for="can_recieve_internal_feed_orders"><%= _('Can recieve internal feed orders') %></label>          
+          <input id="can_recieve_internal_feed_orders" name="role[can_recieve_internal_feed_orders]" class="form-control" type="checkbox" <%= checkbox_checked(@role.can_recieve_internal_feed_orders) %>>
+      </div>
+  </div>
+  
+  
+</div>
+<div class='row'>
+  <div class='col-sm-4 col-lg-3'>    
+      <div class='form-group'>
+          <label for="order_notifications"><%= _('Order Notifications') %></label>          
+          <input id="order_notifications" name="role[recieves_order_more_notifications]" class="form-control" type="checkbox" <%= checkbox_checked(@role.recieves_order_more_notifications) %>>
+      </div>
+  </div>
+  <div class='col-sm-4 col-lg-3'>    
+      <div class='form-group'>
+          <label for="system_notifications"><%= _('System Notifications') %></label>          
+          <input id="system_notifications" name="role[recieves_system_notifications]" class="form-control" type="checkbox" <%= checkbox_checked(@role.recieves_system_notifications) %>>          
+      </div>
+  </div>
+</div>
+
+<div class='row pad-bottom-of-page'>
+  <div class='col-sm-3'>    
+      <%= f.submit :class => "btn btn-primary" %>
+  </div> 
+</div> 
+
+<% end %>    
+
+<script>
+  var page;
+  page = function() {
+       // $('.permission_checkbox.perm-all').click(function(){
+       //    var check = $(this).is(":checked")
+       //    $(this).parent().parent().find('.permission_checkbox').each(function(){
+       //      $(this).prop('checked', check);
+       //    })
+       // });
+  };
+  $(document).ready(page);
+  $(document).on('page:load', page);
+</script>

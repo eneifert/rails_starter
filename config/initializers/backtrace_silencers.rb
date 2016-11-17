@@ -5,3 +5,30 @@
 
 # You can also remove all the silencers if you're trying to debug a problem that might stem from framework code.
 # Rails.backtrace_cleaner.remove_silencers!
+
+
+# The following can be used to provide additional infomation during rails callbacks
+# ActiveRecord::Base.class_eval do
+#     alias_method :old_save, :save
+#     alias_method :old_save!, :save!
+#     def save(*args)
+#         begin
+#             puts "#{self} save"
+#             Rails.logger.info "#{self} save"
+#             old_save(*args)
+#         rescue Exception => e
+#             debugger
+#             puts e
+#         end
+#     end
+#     def save!(*args)
+#         begin
+#             Rails.logger.info "#{self} save!"
+#             puts "#{self} save!"
+#             old_save!(*args)
+#         rescue Exception => e
+#             debugger
+#             puts e
+#         end
+#     end
+# end

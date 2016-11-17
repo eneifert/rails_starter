@@ -15,11 +15,2677 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"POT-Creation-Date: 2014-09-19 14:35+0600\n"
 "X-Generator: Poedit 1.5.7\n"
 
-msgid "Find, Sell, and Do Things In"
-msgstr "Find, Sell, and Do Things In mattey"
-
-msgid "testing translation"
+msgid " (NEW)"
 msgstr ""
+
+msgid " Amount kg"
+msgstr ""
+
+msgid " Changed: {what_changed}"
+msgstr ""
+
+msgid " Log Out"
+msgstr ""
+
+msgid " can't be greater than {free_amount}"
+msgstr ""
+
+msgid " can't be greater than {reserved_amount}"
+msgstr ""
+
+msgid "\"Afternoon end time must be greater than afternoon start time for #{self.day_name}\""
+msgstr ""
+
+msgid "\"Afternoon start time must be greater than morning end time for #{self.day_name}\""
+msgstr ""
+
+msgid "\"Can't change the order after it was completed #{other_changes}. Delete the order and make another if this is what you want.\""
+msgstr ""
+
+msgid "\"Can't make #{pebbles_produced + powder_produced} kg of pebbles/powder from #{pebbles_used + limestone_used} kg of limestone/pebbles\""
+msgstr ""
+
+msgid "\"Can't move more than #{availible} of #{product_type.display_name} from #{location.name}\""
+msgstr ""
+
+msgid "\"Can't set the extrusion price because Inventory Delivery id: #{inv.id} doesn't have a purchased price\""
+msgstr ""
+
+msgid "\"Can't use more than #{display_amount} of #{display_name} from #{location_name}\""
+msgstr ""
+
+msgid "\"Morning end time must be greater than morning start time for #{self.day_name}\""
+msgstr ""
+
+msgid "\"Must have afternoon start and end times for #{self.day_name}\""
+msgstr ""
+
+msgid "\"Must have morning start and end times for #{self.day_name}\""
+msgstr ""
+
+msgid "\"earliest possible time the client can get their order is #{earliest.strftime(\"%b %d %R\")}\""
+msgstr ""
+
+msgid "Accepted"
+msgstr ""
+
+msgid "Accounting"
+msgstr ""
+
+msgid "Accounting Report"
+msgstr ""
+
+msgid "Active"
+msgstr ""
+
+msgid "Active discount"
+msgstr ""
+
+msgid "Actual price per kilo"
+msgstr ""
+
+msgid "Add Alias"
+msgstr ""
+
+msgid "Add Daily Internal Feed Order"
+msgstr ""
+
+msgid "Add Holiday"
+msgstr ""
+
+msgid "Add Inventory Transport"
+msgstr ""
+
+msgid "Add Moved Inventory"
+msgstr ""
+
+msgid "Add New Client"
+msgstr ""
+
+msgid "Add New Supplier"
+msgstr ""
+
+msgid "Add Order Time Threshold"
+msgstr ""
+
+msgid "Add Patent"
+msgstr ""
+
+msgid "Add Payment"
+msgstr ""
+
+msgid "Add Product"
+msgstr ""
+
+msgid "Add first/last in mix?"
+msgstr ""
+
+msgid "Additional Soy Meal fee in som"
+msgstr ""
+
+msgid "Additional Soy Pressed fee in som"
+msgstr ""
+
+msgid "Address"
+msgstr ""
+
+msgid "Adjust Inventory"
+msgstr ""
+
+msgid "Adjust Price Per Kg"
+msgstr ""
+
+msgid "Adjustment Amount"
+msgstr ""
+
+msgid "Adjustment date"
+msgstr ""
+
+msgid "Adjustments Table"
+msgstr ""
+
+msgid "Afternoon EndTime"
+msgstr ""
+
+msgid "Afternoon StartTime"
+msgstr ""
+
+msgid "Afternoon endtime"
+msgstr ""
+
+msgid "Afternoon starttime"
+msgstr ""
+
+msgid "Alias"
+msgstr ""
+
+msgid "Aliases"
+msgstr ""
+
+msgid "All"
+msgstr ""
+
+msgid "All Results Table"
+msgstr ""
+
+msgid "All ingredients must have amounts"
+msgstr ""
+
+msgid "All products must have an amount."
+msgstr ""
+
+msgid "Amount"
+msgstr ""
+
+msgid "Amount (kg)"
+msgstr ""
+
+msgid "Amount Delivered"
+msgstr ""
+
+msgid "Amount Delivered/Made"
+msgstr ""
+
+msgid "Amount Due"
+msgstr ""
+
+msgid "Amount KG Delivered"
+msgstr ""
+
+msgid "Amount Paid"
+msgstr ""
+
+msgid "Amount Recieved"
+msgstr ""
+
+msgid "Amount Recieved kg"
+msgstr ""
+
+msgid "Amount Sold/Used"
+msgstr ""
+
+msgid "Amount at location"
+msgstr ""
+
+msgid "Amount changed by"
+msgstr ""
+
+msgid "Amount due"
+msgstr ""
+
+msgid "Amount free moved"
+msgstr ""
+
+msgid "Amount in kilos"
+msgstr ""
+
+msgid "Amount made in Job doesn't equal the amount for it's orders"
+msgstr ""
+
+msgid "Amount needed to qualify for discount"
+msgstr ""
+
+msgid "Amount of Soy Bean Meal made"
+msgstr ""
+
+msgid "Amount of Soy Bean Oil made"
+msgstr ""
+
+msgid "Amount of Soy Bean Pressed made"
+msgstr ""
+
+msgid "Amount of copies to print for order receipts"
+msgstr ""
+
+msgid "Amount paid"
+msgstr ""
+
+msgid "Amount received"
+msgstr ""
+
+msgid "Amount reserved moved"
+msgstr ""
+
+msgid "Amount used"
+msgstr ""
+
+msgid "Amount was"
+msgstr ""
+
+msgid "Amounts"
+msgstr ""
+
+msgid "Amounts can't be 0"
+msgstr ""
+
+msgid "Another Lookup already exists with this name"
+msgstr ""
+
+msgid "Another order is already using that purchase order"
+msgstr ""
+
+msgid "Approved"
+msgstr ""
+
+msgid "Are you sure?"
+msgstr ""
+
+msgid "Availible Limestone"
+msgstr ""
+
+msgid "Availible Soy Bean"
+msgstr ""
+
+msgid "Availible limestone pebbles"
+msgstr ""
+
+msgid "Avg costs over last 6 months"
+msgstr ""
+
+msgid "Back"
+msgstr ""
+
+msgid "Balance"
+msgstr ""
+
+msgid "Balance Feed Mill Job Amount To"
+msgstr ""
+
+msgid "Body"
+msgstr ""
+
+msgid "British Pound"
+msgstr ""
+
+msgid "Bulk Discounts"
+msgstr ""
+
+msgid "Bulk amount for discount"
+msgstr ""
+
+msgid "BulkDiscount was successfully created."
+msgstr ""
+
+msgid "BulkDiscount was successfully deleted."
+msgstr ""
+
+msgid "BulkDiscount was successfully updated."
+msgstr ""
+
+msgid "By Day"
+msgstr ""
+
+msgid "By Time period"
+msgstr ""
+
+msgid "CREATING"
+msgstr ""
+
+msgid "Calcium Percent"
+msgstr ""
+
+msgid "Can Print Batch sheets"
+msgstr ""
+
+msgid "Can recieve internal feed orders"
+msgstr ""
+
+msgid "Can upload rations"
+msgstr ""
+
+msgid "Can't change product id after creation. Delete the inventory if you want to get rid of it."
+msgstr ""
+
+msgid "Can't complete an inventory order until all of it's jobs are done."
+msgstr ""
+
+msgid "Can't create duplicate extrusions within 2 minutes of each other"
+msgstr ""
+
+msgid "Can't delete a flock that is tied to orders."
+msgstr ""
+
+msgid "Can't delete the default location"
+msgstr ""
+
+msgid "Can't delete the ration because it was used for feed mill jobs."
+msgstr ""
+
+msgid "Can't delete this product type since Inventory id: {inv.id} {self.name} is assigned to it"
+msgstr ""
+
+msgid "Can't delete this product type since it is a part of ration {rp.ration.name}"
+msgstr ""
+
+msgid "Can't delete this product type since it is by OrderProduct: {op.id}"
+msgstr ""
+
+msgid "Can't delete this product type since it is by OrderProductReservation: {opr.id}"
+msgstr ""
+
+msgid "Can't delete this product type since it is by PurchasingOrder: {op.purchasing_order.id}"
+msgstr ""
+
+msgid "Can't delete this product type since it is used by ration {r.name}"
+msgstr ""
+
+msgid "Can't delete this product type since it is used by the system"
+msgstr ""
+
+msgid "Can't find valid active ration for product_type: {op.product_type_id}"
+msgstr ""
+
+msgid "Can't have an inventory order for anything but mixes"
+msgstr ""
+
+msgid "Can't have more than one of the same product"
+msgstr ""
+
+msgid "Can't make the feed mill balance order because we don't have enough {short_on} to reserve for {product_type.display_name} and we can't get it by then."
+msgstr ""
+
+msgid "Can't move to a job that has been started"
+msgstr ""
+
+msgid "Can't move to a job that has been started or deleted"
+msgstr ""
+
+msgid "Canceled"
+msgstr ""
+
+msgid "Cash Through Cashier"
+msgstr ""
+
+msgid "Change Date"
+msgstr ""
+
+msgid "Change Date Balance"
+msgstr ""
+
+msgid "Change Date Was"
+msgstr ""
+
+msgid "Change Log"
+msgstr ""
+
+msgid "Change Sales Last 2 Weeks"
+msgstr ""
+
+msgid "Change Sales This Month"
+msgstr ""
+
+msgid "Change amount by (can be positive or negative)"
+msgstr ""
+
+msgid "Changed by"
+msgstr ""
+
+msgid "Chicken Feed"
+msgstr ""
+
+msgid "Chickens"
+msgstr ""
+
+msgid "Choose Image..."
+msgstr ""
+
+msgid "Choose a product"
+msgstr ""
+
+msgid "Choose at least one order to move to a different job"
+msgstr ""
+
+msgid "City"
+msgstr ""
+
+msgid "Clear"
+msgstr ""
+
+msgid "Client"
+msgstr ""
+
+msgid "Client 1 (will stay)"
+msgstr ""
+
+msgid "Client 2 (will become client 1)"
+msgstr ""
+
+msgid "Client Discounts"
+msgstr ""
+
+msgid "Client Name"
+msgstr ""
+
+msgid "Client Reports"
+msgstr ""
+
+msgid "Client was successfully created."
+msgstr ""
+
+msgid "Client was successfully deleted."
+msgstr ""
+
+msgid "Client was successfully updated."
+msgstr ""
+
+msgid "ClientDiscount was successfully created."
+msgstr ""
+
+msgid "ClientDiscount was successfully deleted."
+msgstr ""
+
+msgid "ClientDiscount was successfully updated."
+msgstr ""
+
+msgid "Clients"
+msgstr ""
+
+msgid "Closing Values"
+msgstr ""
+
+msgid "Company name"
+msgstr ""
+
+msgid "Complete Order"
+msgstr ""
+
+msgid "Completed"
+msgstr ""
+
+msgid "Completed At"
+msgstr ""
+
+msgid "Completed at"
+msgstr ""
+
+msgid "Concentrate"
+msgstr ""
+
+msgid "Conversion date"
+msgstr ""
+
+msgid "Cost per kilo"
+msgstr ""
+
+msgid "Costs Per Kilo"
+msgstr ""
+
+msgid "Costs Per Kilo (using active ration)"
+msgstr ""
+
+msgid "Could not create the inventory after completing an order"
+msgstr ""
+
+msgid "Couldn't update job {id}: {error}"
+msgstr ""
+
+msgid "Couldn't update ration {id}: {error}"
+msgstr ""
+
+msgid "Country"
+msgstr ""
+
+msgid "Create Bulk discount"
+msgstr ""
+
+msgid "Create Client"
+msgstr ""
+
+msgid "Create Client discount"
+msgstr ""
+
+msgid "Create Extruded inventory"
+msgstr ""
+
+msgid "Create Feed mill job"
+msgstr ""
+
+msgid "Create Flock"
+msgstr ""
+
+msgid "Create Holiday"
+msgstr ""
+
+msgid "Create Internal chicken feed order"
+msgstr ""
+
+msgid "Create Inventory"
+msgstr ""
+
+msgid "Create Limestone conversion"
+msgstr ""
+
+msgid "Create Location"
+msgstr ""
+
+msgid "Create Location discount"
+msgstr ""
+
+msgid "Create Lost inventory"
+msgstr ""
+
+msgid "Create Moved inventory"
+msgstr ""
+
+msgid "Create Notification"
+msgstr ""
+
+msgid "Create Order"
+msgstr ""
+
+msgid "Create Order credit payment"
+msgstr ""
+
+msgid "Create Order product"
+msgstr ""
+
+msgid "Create Order time threshold"
+msgstr ""
+
+msgid "Create Product type"
+msgstr ""
+
+msgid "Create Purchasing order"
+msgstr ""
+
+msgid "Create Purchasing payment"
+msgstr ""
+
+msgid "Create Ration"
+msgstr ""
+
+msgid "Create Ration product"
+msgstr ""
+
+msgid "Create Settings"
+msgstr ""
+
+msgid "Create Split feed mill job"
+msgstr ""
+
+msgid "Create Supplier"
+msgstr ""
+
+msgid "Create Working day"
+msgstr ""
+
+msgid "Create inventory adjustment"
+msgstr ""
+
+msgid "Created"
+msgstr ""
+
+msgid "Created At"
+msgstr ""
+
+msgid "Created Date"
+msgstr ""
+
+msgid "Created On"
+msgstr ""
+
+msgid "Created at"
+msgstr ""
+
+msgid "Credit Payments"
+msgstr ""
+
+msgid "Credit duedate"
+msgstr ""
+
+msgid "Credit, expedition, or other costs"
+msgstr ""
+
+msgid "Currency Rate"
+msgstr ""
+
+msgid "Currency Type"
+msgstr ""
+
+msgid "Current Amount Kg"
+msgstr ""
+
+msgid "Daily Feed Orders For Dutch Nature Chickens"
+msgstr ""
+
+msgid "Daily late payment fee %"
+msgstr ""
+
+msgid "Daily required amount"
+msgstr ""
+
+msgid "Damaged"
+msgstr ""
+
+msgid "Dashboard"
+msgstr ""
+
+msgid "Date"
+msgstr ""
+
+msgid "Date Recieved"
+msgstr ""
+
+msgid "Date delivered"
+msgstr ""
+
+msgid "Date of loss"
+msgstr ""
+
+msgid "Day name"
+msgstr ""
+
+msgid "Day name ru"
+msgstr ""
+
+msgid "Days Till Runout"
+msgstr ""
+
+msgid "Days in advance"
+msgstr ""
+
+msgid "Days in advance they have to order"
+msgstr ""
+
+msgid "Days to order more"
+msgstr ""
+
+msgid "Debt"
+msgstr ""
+
+msgid "Decreased by"
+msgstr ""
+
+msgid "Default Order Location"
+msgstr ""
+
+msgid "Delete the order to remove this job"
+msgstr ""
+
+msgid "Deleted amounts"
+msgstr ""
+
+msgid "Delivered date"
+msgstr ""
+
+msgid "Delivery From Date"
+msgstr ""
+
+msgid "Delivery Reports"
+msgstr ""
+
+msgid "Delivery To Date"
+msgstr ""
+
+msgid "Density (kg/h)"
+msgstr ""
+
+msgid "Description"
+msgstr ""
+
+msgid "Destroy"
+msgstr ""
+
+msgid "Discount"
+msgstr ""
+
+msgid "Discount per kilo"
+msgstr ""
+
+msgid "Don't have enough inv to finish the order. Wait till it's feed mill jobs are done"
+msgstr ""
+
+msgid "Don't have enough {op.product_type.display_name} on hand."
+msgstr ""
+
+msgid "Don't have enough {short_on} to reserve for {product_type.display_name} and we can't get it by then."
+msgstr ""
+
+msgid "Done"
+msgstr ""
+
+msgid "Download Sample"
+msgstr ""
+
+msgid "Due Date"
+msgstr ""
+
+msgid "Due date"
+msgstr ""
+
+msgid "Dup client"
+msgstr ""
+
+msgid "Dup client discounts"
+msgstr ""
+
+msgid "Dup client id"
+msgstr ""
+
+msgid "Dup client name"
+msgstr ""
+
+msgid "Dup client order ids"
+msgstr ""
+
+msgid "DuplicateClient was successfully created."
+msgstr ""
+
+msgid "DuplicateClient was successfully deleted."
+msgstr ""
+
+msgid "DuplicateClient was successfully updated."
+msgstr ""
+
+msgid "Earliest Can do it"
+msgstr ""
+
+msgid "Edit"
+msgstr ""
+
+msgid "Edit Inventory Delivery"
+msgstr ""
+
+msgid "Edit Product type"
+msgstr ""
+
+msgid "Editing bulk_discount"
+msgstr ""
+
+msgid "Editing client"
+msgstr ""
+
+msgid "Editing client_discount"
+msgstr ""
+
+msgid "Editing duplicate_client"
+msgstr ""
+
+msgid "Editing extruded_inventory"
+msgstr ""
+
+msgid "Editing flock"
+msgstr ""
+
+msgid "Editing holiday"
+msgstr ""
+
+msgid "Editing internal_chicken_feed_order"
+msgstr ""
+
+msgid "Editing inventory_adjustment"
+msgstr ""
+
+msgid "Editing inventory_transport"
+msgstr ""
+
+msgid "Editing limestone_conversion"
+msgstr ""
+
+msgid "Editing location"
+msgstr ""
+
+msgid "Editing location_discount"
+msgstr ""
+
+msgid "Editing lost_inventory"
+msgstr ""
+
+msgid "Editing moved_inventory"
+msgstr ""
+
+msgid "Editing notification"
+msgstr ""
+
+msgid "Editing order"
+msgstr ""
+
+msgid "Editing order_credit_payment"
+msgstr ""
+
+msgid "Editing order_product"
+msgstr ""
+
+msgid "Editing order_time_threshold"
+msgstr ""
+
+msgid "Editing purchasing_order"
+msgstr ""
+
+msgid "Editing purchasing_payment"
+msgstr ""
+
+msgid "Editing ration"
+msgstr ""
+
+msgid "Editing ration_product"
+msgstr ""
+
+msgid "Editing split_feed_mill_job"
+msgstr ""
+
+msgid "Editing supplier"
+msgstr ""
+
+msgid "Editing working_day"
+msgstr ""
+
+msgid "Email"
+msgstr ""
+
+msgid "End Of Day Totals"
+msgstr ""
+
+msgid "End Of Month Balance"
+msgstr ""
+
+msgid "Errors man!"
+msgstr ""
+
+msgid "Estimated Other Costs"
+msgstr ""
+
+msgid "Estimated Price Per Kilo"
+msgstr ""
+
+msgid "Estimated Quantity"
+msgstr ""
+
+msgid "Estimated Total Costs"
+msgstr ""
+
+msgid "Estimated Total cost"
+msgstr ""
+
+msgid "Estimated quantity"
+msgstr ""
+
+msgid "Estimated total cost"
+msgstr ""
+
+msgid "Euro"
+msgstr ""
+
+msgid "Ex Reports"
+msgstr ""
+
+msgid "Expedition fee"
+msgstr ""
+
+msgid "Expiration date"
+msgstr ""
+
+msgid "Expires after amount"
+msgstr ""
+
+msgid "Extra feed to balance feed mill"
+msgstr ""
+
+msgid "Extrude Inventory"
+msgstr ""
+
+msgid "Extruded Inventory"
+msgstr ""
+
+msgid "Extruded Inventory Report"
+msgstr ""
+
+msgid "ExtrudedInventory was successfully created."
+msgstr ""
+
+msgid "ExtrudedInventory was successfully updated."
+msgstr ""
+
+msgid "Extrusion Table"
+msgstr ""
+
+msgid "Extrusion date"
+msgstr ""
+
+msgid "Extrusion type not specified"
+msgstr ""
+
+msgid "Feed Dutch Nature chickens"
+msgstr ""
+
+msgid "Feed Mill"
+msgstr ""
+
+msgid "Feed Mill Job"
+msgstr ""
+
+msgid "Feed Mill Jobs By Day"
+msgstr ""
+
+msgid "Feed Mill Location"
+msgstr ""
+
+msgid "Feed Mill Location?"
+msgstr ""
+
+msgid "Feed Mill Settings"
+msgstr ""
+
+msgid "FeedMillJob was successfully created."
+msgstr ""
+
+msgid "FeedMillJob was successfully deleted."
+msgstr ""
+
+msgid "FeedMillJob was successfully updated."
+msgstr ""
+
+msgid "Fiber Percent"
+msgstr ""
+
+msgid "Final Amount"
+msgstr ""
+
+msgid "Find Amount By Price"
+msgstr ""
+
+msgid "First create a ration for {op.product_type.display_name}"
+msgstr ""
+
+msgid "First create a ration for {product_type.display_name}"
+msgstr ""
+
+msgid "First set \"price per kilo\" for {product_type.display_name}"
+msgstr ""
+
+msgid "First set the price per kilo for {prod_type.display_name}"
+msgstr ""
+
+msgid "Fix Change Log"
+msgstr ""
+
+msgid "Flock"
+msgstr ""
+
+msgid "Flock Feed Summary"
+msgstr ""
+
+msgid "Flock Reports"
+msgstr ""
+
+msgid "Flock was successfully created."
+msgstr ""
+
+msgid "Flock was successfully deleted."
+msgstr ""
+
+msgid "Flock was successfully updated."
+msgstr ""
+
+msgid "Flocks"
+msgstr ""
+
+msgid "Force order"
+msgstr ""
+
+msgid "From Client Order"
+msgstr ""
+
+msgid "From Date"
+msgstr ""
+
+msgid "From Extrusion"
+msgstr ""
+
+msgid "From Feed Mill Job"
+msgstr ""
+
+msgid "From Internal Order"
+msgstr ""
+
+msgid "From Inventory Order"
+msgstr ""
+
+msgid "From Inventory Transport"
+msgstr ""
+
+msgid "From Inventory adjustment"
+msgstr ""
+
+msgid "From Limestone Conversion"
+msgstr ""
+
+msgid "From Location"
+msgstr ""
+
+msgid "From Lost Inventory"
+msgstr ""
+
+msgid "From Moved Inventory"
+msgstr ""
+
+msgid "From Order reservation. This should not be seen."
+msgstr ""
+
+msgid "From and To locations must be different"
+msgstr ""
+
+msgid "From date"
+msgstr ""
+
+msgid "From editing the inventory directly"
+msgstr ""
+
+msgid "From job"
+msgstr ""
+
+msgid "From location"
+msgstr ""
+
+msgid "Fullfiled"
+msgstr ""
+
+msgid "Get a notification if order isn't picked up in these days"
+msgstr ""
+
+msgid "Group feed mill job batch sheets?"
+msgstr ""
+
+msgid "Has paid"
+msgstr ""
+
+msgid "Holidays"
+msgstr ""
+
+msgid "Hours from now pickup time defaults to"
+msgstr ""
+
+msgid "How many kg can the feed mill make each day?"
+msgstr ""
+
+msgid "I need a ration for {op.product_type.display_name} before I can tell you how long it will take to make. "
+msgstr ""
+
+msgid "I need a ration for {product_type.display_name} before I can tell you how long it will take to make. "
+msgstr ""
+
+msgid "Id"
+msgstr ""
+
+msgid "Import Clients"
+msgstr ""
+
+msgid "Import Rations"
+msgstr ""
+
+msgid "Increased by"
+msgstr ""
+
+msgid "Info"
+msgstr ""
+
+msgid "Ingredient"
+msgstr ""
+
+msgid "Ingredient Prices"
+msgstr ""
+
+msgid "Ingredient Usage"
+msgstr ""
+
+msgid "Ingredients"
+msgstr ""
+
+msgid "Ingredients (must add up to 100%)"
+msgstr ""
+
+msgid "Initial Balance"
+msgstr ""
+
+msgid "InternalChickenFeedOrder was successfully created."
+msgstr ""
+
+msgid "InternalChickenFeedOrder was successfully deleted."
+msgstr ""
+
+msgid "InternalChickenFeedOrder was successfully updated."
+msgstr ""
+
+msgid "Inventory"
+msgstr ""
+
+msgid "Inventory Change Log"
+msgstr ""
+
+msgid "Inventory Decrease total"
+msgstr ""
+
+msgid "Inventory Delivery Summary"
+msgstr ""
+
+msgid "Inventory History Totals"
+msgstr ""
+
+msgid "Inventory Increase total"
+msgstr ""
+
+msgid "Inventory Replenishment"
+msgstr ""
+
+msgid "Inventory Reports"
+msgstr ""
+
+msgid "Inventory Summary"
+msgstr ""
+
+msgid "Inventory Tasks"
+msgstr ""
+
+msgid "Inventory To Move"
+msgstr ""
+
+msgid "Inventory Transport Item was successfully deleted."
+msgstr ""
+
+msgid "Inventory Transport Report"
+msgstr ""
+
+msgid "Inventory adjustment"
+msgstr ""
+
+msgid "Inventory was successfully created."
+msgstr ""
+
+msgid "Inventory was successfully deleted."
+msgstr ""
+
+msgid "Inventory was successfully updated."
+msgstr ""
+
+msgid "InventoryAdjustment was successfully created."
+msgstr ""
+
+msgid "InventoryTransport was successfully created."
+msgstr ""
+
+msgid "InventoryTransport was successfully deleted."
+msgstr ""
+
+msgid "InventoryTransport was successfully updated."
+msgstr ""
+
+msgid "Is Active"
+msgstr ""
+
+msgid "Is Active?"
+msgstr ""
+
+msgid "Is acknowledged"
+msgstr ""
+
+msgid "Is active"
+msgstr ""
+
+msgid "Is on credit"
+msgstr ""
+
+msgid "It's not possible to remove that amount, only {amount_in_inv} exists at that location"
+msgstr ""
+
+msgid "Job amounts"
+msgstr ""
+
+msgid "Job#: "
+msgstr ""
+
+msgid "Jobs Decrease total"
+msgstr ""
+
+msgid "Jobs Increase total"
+msgstr ""
+
+msgid "Jobs Table"
+msgstr ""
+
+msgid "Kazak tenge"
+msgstr ""
+
+msgid "Kyrgyz som"
+msgstr ""
+
+msgid "Late Fee"
+msgstr ""
+
+msgid "Limestone conversions"
+msgstr ""
+
+msgid "Limestone used"
+msgstr ""
+
+msgid "LimestoneConversion was successfully created."
+msgstr ""
+
+msgid "LimestoneConversion was successfully updated."
+msgstr ""
+
+msgid "Listing Feed Mill Ingredient Usage"
+msgstr ""
+
+msgid "Listing Purchasing Orders"
+msgstr ""
+
+msgid "Listing bulk_discounts"
+msgstr ""
+
+msgid "Listing client_discounts"
+msgstr ""
+
+msgid "Listing clients"
+msgstr ""
+
+msgid "Listing duplicate_clients"
+msgstr ""
+
+msgid "Listing feed_mill_jobs"
+msgstr ""
+
+msgid "Listing flocks"
+msgstr ""
+
+msgid "Listing holidays"
+msgstr ""
+
+msgid "Listing internal_chicken_feed_orders"
+msgstr ""
+
+msgid "Listing inventories"
+msgstr ""
+
+msgid "Listing inventory_transports"
+msgstr ""
+
+msgid "Listing limestone_conversions"
+msgstr ""
+
+msgid "Listing location_discounts"
+msgstr ""
+
+msgid "Listing locations"
+msgstr ""
+
+msgid "Listing moved_inventories"
+msgstr ""
+
+msgid "Listing order_credit_payments"
+msgstr ""
+
+msgid "Listing order_products"
+msgstr ""
+
+msgid "Listing order_time_thresholds"
+msgstr ""
+
+msgid "Listing orders"
+msgstr ""
+
+msgid "Listing product_types"
+msgstr ""
+
+msgid "Listing purchasing_payments"
+msgstr ""
+
+msgid "Listing ration_products"
+msgstr ""
+
+msgid "Listing rations"
+msgstr ""
+
+msgid "Listing split_feed_mill_jobs"
+msgstr ""
+
+msgid "Listing suppliers"
+msgstr ""
+
+msgid "Listing working_days"
+msgstr ""
+
+msgid "Location"
+msgstr ""
+
+msgid "Location Discounts"
+msgstr ""
+
+msgid "Location Name"
+msgstr ""
+
+msgid "Location amount for discount"
+msgstr ""
+
+msgid "Location was successfully created."
+msgstr ""
+
+msgid "Location was successfully deleted."
+msgstr ""
+
+msgid "Location was successfully updated."
+msgstr ""
+
+msgid "LocationDiscount was successfully created."
+msgstr ""
+
+msgid "LocationDiscount was successfully deleted."
+msgstr ""
+
+msgid "LocationDiscount was successfully updated."
+msgstr ""
+
+msgid "Locations"
+msgstr ""
+
+msgid "Lost"
+msgstr ""
+
+msgid "Lost Inventories"
+msgstr ""
+
+msgid "Lost costs per kilo"
+msgstr ""
+
+msgid "LostInventory was successfully created."
+msgstr ""
+
+msgid "Made"
+msgstr ""
+
+msgid "Make Ration From This"
+msgstr ""
+
+msgid "Manage users"
+msgstr ""
+
+msgid "Merge"
+msgstr ""
+
+msgid "Merge Duplicate client"
+msgstr ""
+
+msgid "Min system should have on hand"
+msgstr ""
+
+msgid "Mini Mix For"
+msgstr ""
+
+msgid "Mini Mix?"
+msgstr ""
+
+msgid "Mini mix"
+msgstr ""
+
+msgid "Mix"
+msgstr ""
+
+msgid "Moisture Percent"
+msgstr ""
+
+msgid "Morning EndTime"
+msgstr ""
+
+msgid "Morning StartTime"
+msgstr ""
+
+msgid "Morning endtime"
+msgstr ""
+
+msgid "Morning starttime"
+msgstr ""
+
+msgid "Move Inventory"
+msgstr ""
+
+msgid "Move Inventory Reports"
+msgstr ""
+
+msgid "Moved Date"
+msgstr ""
+
+msgid "Moved date"
+msgstr ""
+
+msgid "Moved on date"
+msgstr ""
+
+msgid "MovedInventory was successfully created."
+msgstr ""
+
+msgid "MovedInventory was successfully deleted."
+msgstr ""
+
+msgid "Movements Table"
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+msgid "Name RU"
+msgstr ""
+
+msgid "Name Ru"
+msgstr ""
+
+msgid "Name on internal sales receipt"
+msgstr ""
+
+msgid "Negotiated price per kilo"
+msgstr ""
+
+msgid "New"
+msgstr ""
+
+msgid "New Bulk discount"
+msgstr ""
+
+msgid "New Client"
+msgstr ""
+
+msgid "New Client discount"
+msgstr ""
+
+msgid "New Duplicate client"
+msgstr ""
+
+msgid "New Extruded inventory"
+msgstr ""
+
+msgid "New Feed Mill Job"
+msgstr ""
+
+msgid "New Flock"
+msgstr ""
+
+msgid "New Holiday"
+msgstr ""
+
+msgid "New Internal chicken feed order"
+msgstr ""
+
+msgid "New Inventory Delivery"
+msgstr ""
+
+msgid "New Inventory transport"
+msgstr ""
+
+msgid "New Limestone conversion"
+msgstr ""
+
+msgid "New Location"
+msgstr ""
+
+msgid "New Location discount"
+msgstr ""
+
+msgid "New Lost inventory"
+msgstr ""
+
+msgid "New Moved inventory"
+msgstr ""
+
+msgid "New Order"
+msgstr ""
+
+msgid "New Order product"
+msgstr ""
+
+msgid "New Order time threshold"
+msgstr ""
+
+msgid "New Product type"
+msgstr ""
+
+msgid "New Purchase Order"
+msgstr ""
+
+msgid "New Purchasing Order"
+msgstr ""
+
+msgid "New Purchasing order"
+msgstr ""
+
+msgid "New Ration"
+msgstr ""
+
+msgid "New Ration product"
+msgstr ""
+
+msgid "New Split feed mill job"
+msgstr ""
+
+msgid "New Supplier"
+msgstr ""
+
+msgid "New Working day"
+msgstr ""
+
+msgid "New bulk_discount"
+msgstr ""
+
+msgid "New client"
+msgstr ""
+
+msgid "New client_discount"
+msgstr ""
+
+msgid "New extruded_inventory"
+msgstr ""
+
+msgid "New flock"
+msgstr ""
+
+msgid "New inventory adjustment"
+msgstr ""
+
+msgid "New location_discount"
+msgstr ""
+
+msgid "New lost_inventory"
+msgstr ""
+
+msgid "New moved_inventory"
+msgstr ""
+
+msgid "New order"
+msgstr ""
+
+msgid "New order_credit_payment"
+msgstr ""
+
+msgid "New purchasing_order"
+msgstr ""
+
+msgid "New purchasing_payment"
+msgstr ""
+
+msgid "New ration"
+msgstr ""
+
+msgid "New supplier"
+msgstr ""
+
+msgid "No"
+msgstr ""
+
+msgid "No data for this date"
+msgstr ""
+
+msgid "No history"
+msgstr ""
+
+msgid "Normal Completion Time"
+msgstr ""
+
+msgid "Not Started"
+msgstr ""
+
+msgid "Notes"
+msgstr ""
+
+msgid "Notification was successfully created."
+msgstr ""
+
+msgid "Notification was successfully deleted."
+msgstr ""
+
+msgid "Notification was successfully updated."
+msgstr ""
+
+msgid "Notifications"
+msgstr ""
+
+msgid "Oil Percent"
+msgstr ""
+
+msgid "On Credit"
+msgstr ""
+
+msgid "On Credit?"
+msgstr ""
+
+msgid "Opening Values"
+msgstr ""
+
+msgid "Order"
+msgstr ""
+
+msgid "Order Date"
+msgstr ""
+
+msgid "Order From Date"
+msgstr ""
+
+msgid "Order Id"
+msgstr ""
+
+msgid "Order More"
+msgstr ""
+
+msgid "Order Notifications"
+msgstr ""
+
+msgid "Order Pickup Time"
+msgstr ""
+
+msgid "Order Reports"
+msgstr ""
+
+msgid "Order Settings"
+msgstr ""
+
+msgid "Order Time Thresholds"
+msgstr ""
+
+msgid "Order To Date"
+msgstr ""
+
+msgid "Order date"
+msgstr ""
+
+msgid "Order product was successfully created."
+msgstr ""
+
+msgid "Order product was successfully destroyed."
+msgstr ""
+
+msgid "Order product was successfully updated."
+msgstr ""
+
+msgid "Order time threshold was successfully created."
+msgstr ""
+
+msgid "Order time threshold was successfully destroyed."
+msgstr ""
+
+msgid "Order time threshold was successfully updated."
+msgstr ""
+
+msgid "Order type"
+msgstr ""
+
+msgid "Order was successfully created"
+msgstr ""
+
+msgid "Order was successfully created and completed"
+msgstr ""
+
+msgid "Order was successfully deleted."
+msgstr ""
+
+msgid "Order was successfully updated."
+msgstr ""
+
+msgid "OrderCreditPayment was successfully deleted."
+msgstr ""
+
+msgid "OrderCreditPayment was successfully updated."
+msgstr ""
+
+msgid "Orders"
+msgstr ""
+
+msgid "Orders By Day"
+msgstr ""
+
+msgid "Orders Decrease total"
+msgstr ""
+
+msgid "Orders Increase total"
+msgstr ""
+
+msgid "Orders Table"
+msgstr ""
+
+msgid "Original balance"
+msgstr ""
+
+msgid "Other Costs"
+msgstr ""
+
+msgid "Other costs per kilo"
+msgstr ""
+
+msgid "Patent"
+msgstr ""
+
+msgid "Patent Name"
+msgstr ""
+
+msgid "Patent id"
+msgstr ""
+
+msgid "Patent name"
+msgstr ""
+
+msgid "Patents"
+msgstr ""
+
+msgid "Payment Due date"
+msgstr ""
+
+msgid "Payment duedate"
+msgstr ""
+
+msgid "Payments"
+msgstr ""
+
+msgid "Pebbles produced"
+msgstr ""
+
+msgid "Pebbles used"
+msgstr ""
+
+msgid "Percent"
+msgstr ""
+
+msgid "Percent Soy Bean Lost"
+msgstr ""
+
+msgid "Percentage lost when Soy bean is extruded to Soy Bean Meal"
+msgstr ""
+
+msgid "Percentage lost when Soy bean is extruded to Soy Bean Pressed"
+msgstr ""
+
+msgid "Permission was successfully created."
+msgstr ""
+
+msgid "Permission was successfully updated."
+msgstr ""
+
+msgid "Phone"
+msgstr ""
+
+msgid "Phone1"
+msgstr ""
+
+msgid "Phone2"
+msgstr ""
+
+msgid "Phone3"
+msgstr ""
+
+msgid "Pickup Time"
+msgstr ""
+
+msgid "Pickup time"
+msgstr ""
+
+msgid "Please upload a file"
+msgstr ""
+
+msgid "Possible Duplicates"
+msgstr ""
+
+msgid "Powder produced"
+msgstr ""
+
+msgid "Price"
+msgstr ""
+
+msgid "Price Per Kilo"
+msgstr ""
+
+msgid "Price Sheet"
+msgstr ""
+
+msgid "Price to set soy bean oil to"
+msgstr ""
+
+msgid "Print Batch Sheet"
+msgstr ""
+
+msgid "Print Batch Sheets"
+msgstr ""
+
+msgid "Print Receipt"
+msgstr ""
+
+msgid "Print Receipts"
+msgstr ""
+
+msgid "Processing Info Summary"
+msgstr ""
+
+msgid "Processing Infromation "
+msgstr ""
+
+msgid "Product Category"
+msgstr ""
+
+msgid "Product Name"
+msgstr ""
+
+msgid "Product Type"
+msgstr ""
+
+msgid "Product Type Name"
+msgstr ""
+
+msgid "Product Types"
+msgstr ""
+
+msgid "Product category"
+msgstr ""
+
+msgid "Product name"
+msgstr ""
+
+msgid "Product name ru"
+msgstr ""
+
+msgid "Product type"
+msgstr ""
+
+msgid "ProductType was successfully created."
+msgstr ""
+
+msgid "ProductType was successfully deleted."
+msgstr ""
+
+msgid "ProductType was successfully updated."
+msgstr ""
+
+msgid "Products"
+msgstr ""
+
+msgid "Products must add up to 100 percent. Was  under by {kilos}"
+msgstr ""
+
+msgid "Products must add up to 100 percent. Was over by {kilos}"
+msgstr ""
+
+msgid "Products must add up to 500kg. Was  under by {kilos} kgs"
+msgstr ""
+
+msgid "Products must add up to 500kg. Was over by {kilos} kgs"
+msgstr ""
+
+msgid "Producttype"
+msgstr ""
+
+msgid "Protein Percent"
+msgstr ""
+
+msgid "Purchase Order"
+msgstr ""
+
+msgid "PurchaseOrder was successfully created."
+msgstr ""
+
+msgid "PurchaseOrder was successfully deleted."
+msgstr ""
+
+msgid "PurchaseOrder was successfully updated."
+msgstr ""
+
+msgid "Purchased date"
+msgstr ""
+
+msgid "Purchased price"
+msgstr ""
+
+msgid "Purchased price per kg in som"
+msgstr ""
+
+msgid "Purchases"
+msgstr ""
+
+msgid "Purchasing Order"
+msgstr ""
+
+msgid "Purchasing Orders"
+msgstr ""
+
+msgid "Purchasing Orders Summary"
+msgstr ""
+
+msgid "Purchasing Payments"
+msgstr ""
+
+msgid "Purchasing order"
+msgstr ""
+
+msgid "Quantity"
+msgstr ""
+
+msgid "Queue number"
+msgstr ""
+
+msgid "RU"
+msgstr ""
+
+msgid "Ration"
+msgstr ""
+
+msgid "Ration Name"
+msgstr ""
+
+msgid "Ration percent"
+msgstr ""
+
+msgid "Ration was successfully created."
+msgstr ""
+
+msgid "Ration was successfully deleted."
+msgstr ""
+
+msgid "Ration was successfully updated."
+msgstr ""
+
+msgid "RationProduct was successfully created."
+msgstr ""
+
+msgid "RationProduct was successfully deleted."
+msgstr ""
+
+msgid "RationProduct was successfully updated."
+msgstr ""
+
+msgid "Rations"
+msgstr ""
+
+msgid "Raw Material Usage"
+msgstr ""
+
+msgid "Ready Feed"
+msgstr ""
+
+msgid "Ready For Pickup"
+msgstr ""
+
+msgid "Reason"
+msgstr ""
+
+msgid "Received amount can't be empty when there is a purchase order."
+msgstr ""
+
+msgid "Recieving Manager"
+msgstr ""
+
+msgid "Refresh"
+msgstr ""
+
+msgid "Remaining Debt"
+msgstr ""
+
+msgid "Remaining debt"
+msgstr ""
+
+msgid "Remove"
+msgstr ""
+
+msgid "Replenishment order"
+msgstr ""
+
+msgid "Reported by user"
+msgstr ""
+
+msgid "Reports"
+msgstr ""
+
+msgid "Results Summary"
+msgstr ""
+
+msgid "Role was successfully created."
+msgstr ""
+
+msgid "Role was successfully updated."
+msgstr ""
+
+msgid "Roles"
+msgstr ""
+
+msgid "Round Receipts?"
+msgstr ""
+
+msgid "Russian Ruble"
+msgstr ""
+
+msgid "Sale Price Per Kilo"
+msgstr ""
+
+msgid "Sales History"
+msgstr ""
+
+msgid "Sales last 30 days"
+msgstr ""
+
+msgid "Search"
+msgstr ""
+
+msgid "See All Notifications"
+msgstr ""
+
+msgid "Select a batch sheet to print."
+msgstr ""
+
+msgid "Select a product"
+msgstr ""
+
+msgid "Select at least on job to print batch sheets for."
+msgstr ""
+
+msgid "Select at least one Order to print receipt for."
+msgstr ""
+
+msgid "Set Active"
+msgstr ""
+
+msgid "Set a sale price per kilo"
+msgstr ""
+
+msgid "Set amount to"
+msgstr ""
+
+msgid "Set amount to (must be >= 0)"
+msgstr ""
+
+msgid "Set product amount for {prod_type.display_name}"
+msgstr ""
+
+msgid "Setting was successfully updated."
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+msgid "Should never have more than one feed mill balance order"
+msgstr ""
+
+msgid "Show"
+msgstr ""
+
+msgid "Show Processing Summary"
+msgstr ""
+
+msgid "Show bulk_discount"
+msgstr ""
+
+msgid "Show client"
+msgstr ""
+
+msgid "Show client_discount"
+msgstr ""
+
+msgid "Show completed orders?"
+msgstr ""
+
+msgid "Show duplicate_client"
+msgstr ""
+
+msgid "Show extruded_inventory"
+msgstr ""
+
+msgid "Show feed_mill_job"
+msgstr ""
+
+msgid "Show finished jobs?"
+msgstr ""
+
+msgid "Show flock"
+msgstr ""
+
+msgid "Show holiday"
+msgstr ""
+
+msgid "Show inactive"
+msgstr ""
+
+msgid "Show inactive?"
+msgstr ""
+
+msgid "Show internal_chicken_feed_order"
+msgstr ""
+
+msgid "Show inventory"
+msgstr ""
+
+msgid "Show inventory_adjustment"
+msgstr ""
+
+msgid "Show inventory_transport"
+msgstr ""
+
+msgid "Show limestone_conversion"
+msgstr ""
+
+msgid "Show location"
+msgstr ""
+
+msgid "Show lost_inventory"
+msgstr ""
+
+msgid "Show moved_inventory"
+msgstr ""
+
+msgid "Show notification"
+msgstr ""
+
+msgid "Show order"
+msgstr ""
+
+msgid "Show order_credit_payment"
+msgstr ""
+
+msgid "Show order_product"
+msgstr ""
+
+msgid "Show order_time_threshold"
+msgstr ""
+
+msgid "Show product_type"
+msgstr ""
+
+msgid "Show purchasing_order"
+msgstr ""
+
+msgid "Show purchasing_payment"
+msgstr ""
+
+msgid "Show ration"
+msgstr ""
+
+msgid "Show ration_product"
+msgstr ""
+
+msgid "Show split_feed_mill_job"
+msgstr ""
+
+msgid "Show supplier"
+msgstr ""
+
+msgid "Show working_day"
+msgstr ""
+
+msgid "Shrinkage"
+msgstr ""
+
+msgid "Skip Discounts?"
+msgstr ""
+
+msgid "Skip Feed Mill Balance?"
+msgstr ""
+
+msgid "Skip Feed Mill Job?"
+msgstr ""
+
+msgid "Skip Internal order jobs?"
+msgstr ""
+
+msgid "Skip client order jobs?"
+msgstr ""
+
+msgid "Soy Bean Meal"
+msgstr ""
+
+msgid "Soy Bean Meal Extrusion"
+msgstr ""
+
+msgid "Soy Bean Oil"
+msgstr ""
+
+msgid "Soy Bean Pressed"
+msgstr ""
+
+msgid "Soy Bean Pressed Extrusion"
+msgstr ""
+
+msgid "Soy Bean Used"
+msgstr ""
+
+msgid "Soy bean meal product type"
+msgstr ""
+
+msgid "Soy bean product type"
+msgstr ""
+
+msgid "Start Of Month Balance"
+msgstr ""
+
+msgid "Start date"
+msgstr ""
+
+msgid "Started"
+msgstr ""
+
+msgid "Status"
+msgstr ""
+
+msgid "String"
+msgstr ""
+
+msgid "Sub Total"
+msgstr ""
+
+msgid "Subject"
+msgstr ""
+
+msgid "Submit"
+msgstr ""
+
+msgid "Successfully imported {rows} rows"
+msgstr ""
+
+msgid "Successfully imported: {rations}"
+msgstr ""
+
+msgid "Successfully updated job {id}"
+msgstr ""
+
+msgid "Successfully updated ration {id}"
+msgstr ""
+
+msgid "Sucessfully undone."
+msgstr ""
+
+msgid "Suggested Late fee"
+msgstr ""
+
+msgid "Summary"
+msgstr ""
+
+msgid "Super Mix"
+msgstr ""
+
+msgid "Supplier"
+msgstr ""
+
+msgid "Supplier Name"
+msgstr ""
+
+msgid "Supplier was successfully created."
+msgstr ""
+
+msgid "Supplier was successfully deleted."
+msgstr ""
+
+msgid "Supplier was successfully updated."
+msgstr ""
+
+msgid "Suppliers"
+msgstr ""
+
+msgid "System Discrepancy"
+msgstr ""
+
+msgid "System Message"
+msgstr ""
+
+msgid "System Notifications"
+msgstr ""
+
+msgid "System Settings"
+msgstr ""
+
+msgid "Takes {days} day(s) to order more {op.product_type.display_name}."
+msgstr ""
+
+msgid "Takes {rp.product_type.days_to_order_more} day(s) to order more {rp.product_type.display_name}."
+msgstr ""
+
+msgid "Tests"
+msgstr ""
+
+msgid "Text"
+msgstr ""
+
+msgid "The feed mill job itself would take {minutes_job_would_take} minutes."
+msgstr ""
+
+msgid "The following errors prohibited this from being saved"
+msgstr ""
+
+msgid "There are {days} days off between now and the estimated completion time."
+msgstr ""
+
+msgid "There are {hours} hours of other jobs before this could start."
+msgstr ""
+
+msgid "There is only {free_soy_bean}kg of Soy Bean and {soy_been_needed}kg is needed. Extrude up to {max_amount}"
+msgstr ""
+
+msgid "This record changed while you were editing. Take these changes into account and submit it again."
+msgstr ""
+
+msgid "To Date"
+msgstr ""
+
+msgid "To Location"
+msgstr ""
+
+msgid "To job"
+msgstr ""
+
+msgid "To location"
+msgstr ""
+
+msgid "Toggle navigation"
+msgstr ""
+
+msgid "Total"
+msgstr ""
+
+msgid "Total Amount of money"
+msgstr ""
+
+msgid "Total Changes"
+msgstr ""
+
+msgid "Total Free"
+msgstr ""
+
+msgid "Total Inv"
+msgstr ""
+
+msgid "Total Kg"
+msgstr ""
+
+msgid "Total Price"
+msgstr ""
+
+msgid "Total Received kilos"
+msgstr ""
+
+msgid "Total Sales"
+msgstr ""
+
+msgid "Total Value"
+msgstr ""
+
+msgid "Total amount"
+msgstr ""
+
+msgid "Total amount:"
+msgstr ""
+
+msgid "Total cost"
+msgstr ""
+
+msgid "Total costs"
+msgstr ""
+
+msgid "Totals"
+msgstr ""
+
+msgid "Type"
+msgstr ""
+
+msgid "Type RU"
+msgstr ""
+
+msgid "US Dollar"
+msgstr ""
+
+msgid "Undo"
+msgstr ""
+
+msgid "Undo Job"
+msgstr ""
+
+msgid "Undo move"
+msgstr ""
+
+msgid "Up To"
+msgstr ""
+
+msgid "Update"
+msgstr ""
+
+msgid "Update Bulk discount"
+msgstr ""
+
+msgid "Update Client"
+msgstr ""
+
+msgid "Update Client discount"
+msgstr ""
+
+msgid "Update Extruded inventory"
+msgstr ""
+
+msgid "Update Feed mill job"
+msgstr ""
+
+msgid "Update Flock"
+msgstr ""
+
+msgid "Update Holiday"
+msgstr ""
+
+msgid "Update Internal chicken feed order"
+msgstr ""
+
+msgid "Update Inventory"
+msgstr ""
+
+msgid "Update Limestone conversion"
+msgstr ""
+
+msgid "Update Location"
+msgstr ""
+
+msgid "Update Location discount"
+msgstr ""
+
+msgid "Update Lost inventory"
+msgstr ""
+
+msgid "Update Moved inventory"
+msgstr ""
+
+msgid "Update Notification"
+msgstr ""
+
+msgid "Update Order"
+msgstr ""
+
+msgid "Update Order credit payment"
+msgstr ""
+
+msgid "Update Order product"
+msgstr ""
+
+msgid "Update Order time threshold"
+msgstr ""
+
+msgid "Update Product type"
+msgstr ""
+
+msgid "Update Purchasing order"
+msgstr ""
+
+msgid "Update Purchasing payment"
+msgstr ""
+
+msgid "Update Ration"
+msgstr ""
+
+msgid "Update Ration product"
+msgstr ""
+
+msgid "Update Settings"
+msgstr ""
+
+msgid "Update Split feed mill job"
+msgstr ""
+
+msgid "Update Supplier"
+msgstr ""
+
+msgid "Update Working day"
+msgstr ""
+
+msgid "Updated On"
+msgstr ""
+
+msgid "Upload Image"
+msgstr ""
+
+msgid "Urea Activity Percent"
+msgstr ""
+
+msgid "Use jobs to fill orders over XXXX kg"
+msgstr ""
+
+msgid "Use one or the other but not both"
+msgstr ""
+
+msgid "Used Last 30 days"
+msgstr ""
+
+msgid "Used/Sold costs"
+msgstr ""
+
+msgid "User user was successfully created."
+msgstr ""
+
+msgid "User user was successfully destroyed."
+msgstr ""
+
+msgid "User user was successfully updated."
+msgstr ""
+
+msgid "Users"
+msgstr ""
+
+msgid "Value must be <> 0"
+msgstr ""
+
+msgid "View"
+msgstr ""
+
+msgid "Waiting On Feed Mill"
+msgstr ""
+
+msgid "Weighted Avg Purchased Price"
+msgstr ""
+
+msgid "Work Schedule"
+msgstr ""
+
+msgid "Yes"
+msgstr ""
+
+msgid "You are not authorized to do this action"
+msgstr ""
+
+msgid "You can't have a credit payment for anything but a client order. Perhaps you should delete this credit payment?"
+msgstr ""
+
+msgid "You can't make any other changes when completing an order."
+msgstr ""
+
+msgid "You can't move a feed mill balance order"
+msgstr ""
+
+msgid "You can't move all of the orders to another job because that makes no sense."
+msgstr ""
+
+msgid "You do not have permission to do this"
+msgstr ""
+
+msgid "You must choose or create a purchase_order"
+msgstr ""
+
+msgid "You must move some inventory"
+msgstr ""
+
+msgid "You must set either the change amount by or set amount to"
+msgstr ""
+
+msgid "You must set the change amount by or set amount to but not both"
+msgstr ""
+
+msgid "adjustment date"
+msgstr ""
+
+msgid "ago"
+msgstr ""
+
+msgid "avg Purchased Price"
+msgstr ""
+
+msgid "balance_amount"
+msgstr ""
+
+msgid "can't be empty"
+msgstr ""
+
+msgid "can't have two lookup names with the same value"
+msgstr ""
+
+msgid "chicken_amount"
+msgstr ""
+
+msgid "choose a client"
+msgstr ""
+
+msgid "clients_amount"
+msgstr ""
+
+msgid "clients_cash"
+msgstr ""
+
+msgid "clients_credit"
+msgstr ""
+
+msgid "extrusion type not specified be empty"
+msgstr ""
+
+msgid "inventory_amount"
+msgstr ""
+
+msgid "kg."
+msgstr ""
+
+msgid "name"
+msgstr ""
+
+msgid "prohibited this admin_user from being saved:"
+msgstr ""
+
+msgid "prohibited this from being saved"
+msgstr ""
+
+msgid "total_amount"
+msgstr ""
+
+msgid "{rp.product_type.display_name} needs to have days_to_order_more set first."
+msgstr ""
+
+msgid "Взял пробу? (да / нет)"
+msgstr ""
+
+msgid "Код Бригадира"
+msgstr ""
+
+msgid "Код Оператора"
+msgstr ""
+
+msgid "Мини-Микс"
+msgstr ""
+
+msgid "Объём партии"
+msgstr ""
+
+msgid "Подпись Бригадира"
+msgstr ""
+
+msgid "Подпись Оператора"
+msgstr ""
+
+msgid "Часть рациона"
+msgstr ""
+
+msgid "основной"
+msgstr ""
+
+msgid "№ Миксера"
+msgstr ""
+
+#~ msgid "Find, Sell, and Do Things In"
+#~ msgstr "Find, Sell, and Do Things In mattey"

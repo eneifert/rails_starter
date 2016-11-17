@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: app 1.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2014-09-19 12:07+0600\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2016-06-04 17:03-0400\n"
+"Last-Translator: Eric Neifert <eric.neifert@gmail.com>\n"
 "Language-Team: Russian\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
@@ -16,10 +16,2684 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4"
 " && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"\n"
+"X-Generator: Poedit 1.8.7\n"
+"POT-Creation-Date: 2016-10-10 16:06+0600\n"
 
-msgid "Find, Sell, and Do Things In"
+msgid " (NEW)"
+msgstr "(НОВЫЙ)"
+
+msgid " Amount kg"
+msgstr "Кол-во (кг)"
+
+msgid " Changed: {what_changed}"
+msgstr "измененый"
+
+msgid " Log Out"
+msgstr "Выйти"
+
+msgid " can't be greater than {free_amount}"
+msgstr "не может быть больше, чем {free_amount}"
+
+msgid " can't be greater than {reserved_amount}"
+msgstr "не может быть больше, чем  {reserved_amount}"
+
+msgid "\"Afternoon end time must be greater than afternoon start time for #{self.day_name}\""
+msgstr "дневной конец время должен быть больше дневного начала времени для#"
+
+msgid "\"Afternoon start time must be greater than morning end time for #{self.day_name}\""
+msgstr "дневное начало времени должно быть больше утреннего начала времени для #"
+
+msgid "\"Can't change the order after it was completed #{other_changes}. Delete the order and make another if this is what you want.\""
 msgstr ""
 
-msgid "testing translation"
+msgid "\"Can't move #{free_and_moved_was}kg of {product_type.display_name} from {location}. Only #{amount_at_location}kg availible.\""
 msgstr ""
+
+msgid "\"Can't set the extrusion price because Inventory Delivery id: #{inv.id} doesn't have a purchased price\""
+msgstr "Не возможно назначить экструдированную цену, потому что доставка № {inv.id} не имеет покупательскую цену"
+
+msgid "\"Morning end time must be greater than morning start time for #{self.day_name}\""
+msgstr "утренное конец время должно быть больше утренного начала для#"
+
+msgid "\"Must have afternoon start and end times for #{self.day_name}\""
+msgstr "Должно быть дневное начальное и законченное время для #{self.day_name}\""
+
+msgid "\"Must have morning start and end times for #{self.day_name}\""
+msgstr "Должно быть дневное начальное и законченное время для #{self.day_name}\""
+
+msgid "\"earliest possible time the client can get their order is #{earliest.strftime(\"%b %d %R\")}\""
+msgstr "Самое ранее время получения заказа #{earliest.strftime(\"%b %d %R\")}\""
+
+msgid "Accepted"
+msgstr "Принято"
+
+msgid "Accounting"
+msgstr ""
+
+msgid "Accounting Report"
+msgstr ""
+
+msgid "Active"
+msgstr "Активно"
+
+msgid "Active discount"
+msgstr "Дествующая скидка"
+
+msgid "Actual price per kilo"
+msgstr "Окончательная цена за кг"
+
+msgid "Add Alias"
+msgstr "Добавить ещё название"
+
+msgid "Add Daily Internal Feed Order"
+msgstr "Добавить Ежедневный Внутренний Заказ на корм"
+
+msgid "Add Holiday"
+msgstr "Добавить Праздничный день"
+
+#, fuzzy
+msgid "Add Inventory Transport"
+msgstr "Отчеты об Инвентаре"
+
+msgid "Add Moved Inventory"
+msgstr "Добавить Перемещенный Инвентарь"
+
+msgid "Add New Client"
+msgstr "Добавить Нового Клиента"
+
+msgid "Add New Supplier"
+msgstr "добавить нового поставщика"
+
+msgid "Add Order Time Threshold"
+msgstr "Добавить Крайний срок, к которому должен быть выполнен заказ"
+
+msgid "Add Patent"
+msgstr "Добавить Патент"
+
+msgid "Add Payment"
+msgstr "Добавить Оплату"
+
+msgid "Add Product"
+msgstr "Добавить Продукцию"
+
+msgid "Add first/last in mix?"
+msgstr "Добавить первый/последний в рацион?"
+
+msgid "Additional Soy Meal fee in som"
+msgstr ""
+
+msgid "Additional Soy Pressed fee in som"
+msgstr ""
+
+msgid "Address"
+msgstr "Адрес"
+
+msgid "Adjust Inventory"
+msgstr "Исправление Инвентаря"
+
+msgid "Adjust Price Per Kg"
+msgstr "Изменить цену за кг"
+
+msgid "Adjustment Amount"
+msgstr "Измененное кол-во"
+
+msgid "Adjustment date"
+msgstr "Дата изменения"
+
+#, fuzzy
+msgid "Adjustments Table"
+msgstr "Дата изменения"
+
+msgid "Afternoon EndTime"
+msgstr "Дневное  законченое  время"
+
+msgid "Afternoon StartTime"
+msgstr "Дневное  время  начало"
+
+msgid "Afternoon endtime"
+msgstr "Дневное  законченое  время"
+
+msgid "Afternoon starttime"
+msgstr "Дневное  время  начало"
+
+msgid "Alias"
+msgstr ""
+
+msgid "Aliases"
+msgstr ""
+
+msgid "All"
+msgstr "Все"
+
+msgid "All Results Table"
+msgstr ""
+
+msgid "All ingredients must have amounts"
+msgstr "Необходимо указать количество для всех ингредиентов"
+
+msgid "All products must have an amount."
+msgstr "Необходимо указать количество всех товаров"
+
+msgid "Amount"
+msgstr "Сумма"
+
+msgid "Amount (kg)"
+msgstr "Количество (кг)"
+
+msgid "Amount Delivered"
+msgstr "Доставленное количество"
+
+msgid "Amount Delivered/Made"
+msgstr "Доставленное/произведенное количество"
+
+msgid "Amount Due"
+msgstr "Сумма к Оплате"
+
+msgid "Amount KG Delivered"
+msgstr "Доставленное количество (КГ)"
+
+msgid "Amount Paid"
+msgstr "Оплаченная сумма"
+
+msgid "Amount Recieved"
+msgstr "Доставленное кол-во (кг)"
+
+msgid "Amount Recieved kg"
+msgstr "Полученное количество кг"
+
+msgid "Amount Sold/Used"
+msgstr "Проданное/использованное количество"
+
+msgid "Amount at location"
+msgstr "Количество на местонахождении "
+
+msgid "Amount changed by"
+msgstr "измененное  количество "
+
+msgid "Amount due"
+msgstr "Сумма к оплате"
+
+msgid "Amount free moved"
+msgstr "Свободное  количество  перемещено"
+
+msgid "Amount in kilos"
+msgstr "Количество в килограммах"
+
+msgid "Amount made in Job doesn't equal the amount for it's orders"
+msgstr "Количество, указанное в категории Комбикормовая Работа не совпадает с количеством, указанным в заказе"
+
+msgid "Amount needed to qualify for discount"
+msgstr "Количество,необходимое  для получения скидки"
+
+msgid "Amount of Soy Bean Meal made"
+msgstr "Кол-во сделанной полножирной сои"
+
+msgid "Amount of Soy Bean Oil made"
+msgstr "Количество сделанного соевого масла"
+
+msgid "Amount of Soy Bean Pressed made"
+msgstr "Кол-во сделанного соевого жмыха"
+
+msgid "Amount of copies to print for order receipts"
+msgstr "кол-во квитанций распечатать на одной странице"
+
+msgid "Amount paid"
+msgstr "Оплачено"
+
+msgid "Amount received"
+msgstr "Полученное количество"
+
+msgid "Amount reserved moved"
+msgstr "Количество  Зарезервировано было перемещено"
+
+msgid "Amount used"
+msgstr "Использованное количество"
+
+msgid "Amount was"
+msgstr "количество было"
+
+#, fuzzy
+msgid "Amounts"
+msgstr "Сумма"
+
+msgid "Amounts can't be 0"
+msgstr "Количество не может быть 0"
+
+msgid "Another Lookup already exists with this name"
+msgstr ""
+
+msgid "Another order is already using that purchase order"
+msgstr ""
+
+msgid "Approved"
+msgstr "Одобрено"
+
+msgid "Are you sure?"
+msgstr "Вы уверены?"
+
+msgid "Availible Soy Bean"
+msgstr "Соевые бобы в наличии"
+
+msgid "Avg costs over last 6 months"
+msgstr ""
+
+msgid "Back"
+msgstr "Назад"
+
+msgid "Balance"
+msgstr "баланс"
+
+msgid "Balance Feed Mill Job Amount To"
+msgstr "Сбалансировать количество работы кормоцеха с"
+
+msgid "Body"
+msgstr ""
+
+msgid "British Pound"
+msgstr "Английский Фунт"
+
+msgid "Bulk Discounts"
+msgstr "Скидки на оптовую закупку"
+
+msgid "Bulk amount for discount"
+msgstr "Количество для получения оптовой скидки"
+
+msgid "BulkDiscount was successfully created."
+msgstr "Скидка на оптовую закупку была успешно создана."
+
+msgid "BulkDiscount was successfully deleted."
+msgstr "Скидка на оптовую закупку была успешно удалена."
+
+msgid "BulkDiscount was successfully updated."
+msgstr "Скидка на оптовую закупку была успешно изменена."
+
+msgid "By Day"
+msgstr ""
+
+msgid "By Time period"
+msgstr ""
+
+msgid "CREATING"
+msgstr "СОЗДАЕМ"
+
+msgid "Calcium Percent"
+msgstr "Процент Кальция"
+
+msgid "Can Print Batch sheets"
+msgstr "Распечатать Batch Sheet"
+
+msgid "Can't change product id after creation. Delete the inventory if you want to get rid of it."
+msgstr ""
+
+msgid "Can't complete an inventory order until all of it's jobs are done."
+msgstr ""
+
+msgid "Can't create duplicate extrusions within 2 minutes of each other"
+msgstr ""
+
+msgid "Can't delete a flock that is tied to orders."
+msgstr "Невозмозно удалить  заказ привязанный к  стае"
+
+msgid "Can't delete the default location"
+msgstr "Невозможно удалить местонахождение по умолчанию"
+
+msgid "Can't delete the ration because it was used for feed mill jobs."
+msgstr "невозможно удалить рацион  потому что он был использован в работе  комбикорма"
+
+msgid "Can't delete this product type since Inventory id: {inv.id} {self.name} is assigned to it"
+msgstr "Невозможно удалить данный вид продукции, так он все еще находится в категории Инвентарь: {inv.id} {self.name}"
+
+msgid "Can't delete this product type since it is a part of ration {rp.ration.name}"
+msgstr "Невозможно удалить данный вид продукции, так как он является частью рациона {rp.ration.name}"
+
+msgid "Can't delete this product type since it is by OrderProduct: {op.id}"
+msgstr "Невозможно удалить данный вид продукции, так как он все еще стоит в категории Заказанного Продукта: {op.id}"
+
+msgid "Can't delete this product type since it is by OrderProductReservation: {opr.id}"
+msgstr "Невозможно удалить данный вид продукции, так как он используется в категории Запас Заказанного Товара: {opr.id}"
+
+msgid "Can't delete this product type since it is by PurchasingOrder: {op.purchasing_order.id}"
+msgstr "Невозможно удалить данный вид продукции, так как он все еще стоит в категории покупачный заказ"
+
+msgid "Can't delete this product type since it is used by ration {r.name}"
+msgstr "Невозможно удалить данный вид продукции, так как он используется рационом {r.name}"
+
+msgid "Can't delete this product type since it is used by the system"
+msgstr "Невозможно удалить данный вид продукции, так как он используется системой"
+
+msgid "Can't find valid active ration for product_type: {op.product_type_id}"
+msgstr ""
+
+msgid "Can't have an inventory order for anything but mixes"
+msgstr "Невозможно произвести заказ инвентаря, кроме как для смесей"
+
+msgid "Can't have more than one of the same product"
+msgstr "Продукция одного и того же типа должна быть в единственном экземпляре"
+
+msgid "Can't make the feed mill balance order because we don't have enough {short_on} to reserve for {product_type.display_name} and we can't get it by then."
+msgstr "Невозможно произвести заказ баланса комбикорма, так как не имеется достаточно {short_on}, чтобы зарезервировать для {product_type.display_name}  и мы не сможем получить это в запрашиваемый срок."
+
+msgid "Can't move to a job that has been started"
+msgstr "Невозможно переместить в Работу, которая уже началась"
+
+msgid "Can't move to a job that has been started or deleted"
+msgstr "Невозможно переместить в Работу, которая уже началась или которая была удалена"
+
+msgid "Canceled"
+msgstr "Отменено"
+
+msgid "Cash Through Cashier"
+msgstr "Ч/З Кассу Наличными"
+
+msgid "Change Date"
+msgstr "изменить дату"
+
+msgid "Change Date Balance"
+msgstr "изменить дату баланса"
+
+msgid "Change Date Was"
+msgstr "изменить предыдущую дату"
+
+msgid "Change Log"
+msgstr "изменить  вход"
+
+msgid "Change Sales Last 2 Weeks"
+msgstr "Изменение за последние 2 недели"
+
+msgid "Change Sales This Month"
+msgstr "Изменение продажи этого месяца"
+
+msgid "Change amount by (can be positive or negative)"
+msgstr "Изменить кол-во на: (полижительное или отрицательное)"
+
+msgid "Changed by"
+msgstr "измененный"
+
+msgid "Chicken Feed"
+msgstr "Куринный  корм"
+
+msgid "Chickens"
+msgstr "Куры"
+
+msgid "Choose Image..."
+msgstr "выбрать  рисунок"
+
+msgid "Choose a product"
+msgstr "выбрать продукцию"
+
+msgid "Choose at least one order to move to a different job"
+msgstr "Выберите хотя бы один заказ, чтобы переместить в другую работу"
+
+msgid "City"
+msgstr "Город"
+
+msgid "Clear"
+msgstr "Очистить"
+
+msgid "Client"
+msgstr "Клиент"
+
+msgid "Client 1 (will stay)"
+msgstr ""
+
+msgid "Client 2 (will become client 1)"
+msgstr ""
+
+msgid "Client Discounts"
+msgstr "Cкидки Клиенту"
+
+msgid "Client Name"
+msgstr "Имя Клиента"
+
+msgid "Client Reports"
+msgstr "Отчеты о Клиенте"
+
+msgid "Client was successfully created."
+msgstr "Клиент был успешно создан."
+
+msgid "Client was successfully deleted."
+msgstr "Клиент был успешно удален."
+
+msgid "Client was successfully updated."
+msgstr "Клиент был успешно изменен"
+
+msgid "ClientDiscount was successfully created."
+msgstr "Скидка Клиенту была успешно создана."
+
+msgid "ClientDiscount was successfully deleted."
+msgstr "Скидка Клиенту была успешно удалена."
+
+msgid "ClientDiscount was successfully updated."
+msgstr "Скидка Клиенту была успешно изменена."
+
+msgid "Clients"
+msgstr "Клиенты"
+
+msgid "Closing Values"
+msgstr ""
+
+#, fuzzy
+msgid "Company name"
+msgstr "День недели"
+
+msgid "Complete Order"
+msgstr "Завершить заказ"
+
+msgid "Completed"
+msgstr "Завершен"
+
+msgid "Completed At"
+msgstr "Время завершения"
+
+msgid "Completed at"
+msgstr "Время завершения"
+
+msgid "Concentrate"
+msgstr "Концентрат "
+
+#, fuzzy
+msgid "Cost per kilo"
+msgstr "Стоимость за кг"
+
+msgid "Costs Per Kilo"
+msgstr "Стоимость за кг"
+
+msgid "Costs Per Kilo (using active ration)"
+msgstr "Стоимость за кг (используя активный рацион)"
+
+msgid "Could not create the inventory after completing an order"
+msgstr "Не получилось создать Инвентарь после завершения заказа"
+
+msgid "Couldn't update job {id}: {error}"
+msgstr "невозможно  обновить работу"
+
+msgid "Couldn't update ration {id}: {error}"
+msgstr "невозможно  обновить рацион"
+
+msgid "Country"
+msgstr "Страна"
+
+msgid "Create Bulk discount"
+msgstr "Создать Скидку на оптовую закупку"
+
+msgid "Create Client"
+msgstr "Создать Клиента"
+
+msgid "Create Client discount"
+msgstr "Создать Скидку Клиенту"
+
+msgid "Create Extruded inventory"
+msgstr "Создать Экструдированный Инвентарь"
+
+msgid "Create Feed mill job"
+msgstr "Создать Работу кормоцеха"
+
+msgid "Create Flock"
+msgstr "Создать  Стаю"
+
+msgid "Create Holiday"
+msgstr "Создать Праздничный день"
+
+msgid "Create Internal chicken feed order"
+msgstr "Создать Внутренний заказ на ком для кур"
+
+msgid "Create Inventory"
+msgstr "Создать Инвентарь"
+
+msgid "Create Location"
+msgstr "Создать Местонахождение "
+
+#, fuzzy
+msgid "Create Location discount"
+msgstr "Создать Скидку Клиенту"
+
+msgid "Create Lost inventory"
+msgstr "Создать Утерянный Инвентарь"
+
+msgid "Create Moved inventory"
+msgstr "Создать Перемещенный Инвентарь"
+
+msgid "Create Notification"
+msgstr "Создать Уведомления"
+
+msgid "Create Order"
+msgstr "Создать Заказ"
+
+msgid "Create Order credit payment"
+msgstr "Создать  заказ  кредитной оплаты"
+
+msgid "Create Order product"
+msgstr "Создать Продукцию заказа"
+
+msgid "Create Order time threshold"
+msgstr "Создать Крайний срок, к которому должен быть выполнен заказ"
+
+msgid "Create Product type"
+msgstr "Создать Вид продукции"
+
+msgid "Create Purchasing order"
+msgstr "Создать Заказ на Покупку"
+
+msgid "Create Purchasing payment"
+msgstr "Создать Оплату за Покупку"
+
+msgid "Create Ration"
+msgstr "Создать Рацион"
+
+msgid "Create Ration product"
+msgstr "Создать Продукт рациона"
+
+msgid "Create Settings"
+msgstr "Создать Настройки"
+
+msgid "Create Split feed mill job"
+msgstr "Создать Распределенную работу кормоцеха "
+
+msgid "Create Supplier"
+msgstr "Создать Поставщика"
+
+msgid "Create Working day"
+msgstr "Создать Рабочий день"
+
+msgid "Create inventory adjustment"
+msgstr "Создать регулировку инвентаря"
+
+msgid "Created"
+msgstr "Создано"
+
+msgid "Created At"
+msgstr "Создано"
+
+msgid "Created Date"
+msgstr "Дата создания"
+
+msgid "Created On"
+msgstr "Создано"
+
+msgid "Created at"
+msgstr "Создано"
+
+msgid "Credit Payments"
+msgstr "кредитная  оплата"
+
+msgid "Credit duedate"
+msgstr "Крайний срок оплаты"
+
+msgid "Credit, expedition, or other costs"
+msgstr "Кредит, ускоренные услуги, или другие виды платежей"
+
+msgid "Currency Rate"
+msgstr "Курс валюты"
+
+msgid "Currency Type"
+msgstr "Вид вылюты"
+
+msgid "Current Amount Kg"
+msgstr "Текущее количество кг"
+
+msgid "Daily Feed Orders For Dutch Nature Chickens"
+msgstr "Ежедневные заказы корма для Dutch Nature Chickens"
+
+msgid "Daily late payment fee %"
+msgstr ""
+
+msgid "Daily required amount"
+msgstr "Необходимое количество на каждый день"
+
+msgid "Damaged"
+msgstr "Испорчено"
+
+msgid "Dashboard"
+msgstr "Домашняя страница"
+
+msgid "Date"
+msgstr "Дата"
+
+msgid "Date Recieved"
+msgstr "Дата доставки"
+
+msgid "Date delivered"
+msgstr "Дата доставки"
+
+msgid "Date of loss"
+msgstr "Дата утери"
+
+msgid "Day name"
+msgstr "День недели"
+
+msgid "Day name ru"
+msgstr "День недели русский"
+
+msgid "Days Till Runout"
+msgstr "Кол-во дней до окончания запасов"
+
+msgid "Days in advance"
+msgstr "Количество дней, за которое необходимо произвести заказ"
+
+msgid "Days in advance they have to order"
+msgstr "Количество дней, за которое необходимо произвести заказ"
+
+msgid "Days to order more"
+msgstr "Количество дней, которое потребуется для заказа"
+
+msgid "Debt"
+msgstr ""
+
+msgid "Decreased by"
+msgstr ""
+
+#, fuzzy
+msgid "Default Order Location"
+msgstr "Местонахождение по умолчанию"
+
+msgid "Deleted amounts"
+msgstr "удаленное  количество"
+
+msgid "Delivered date"
+msgstr "дата доставки"
+
+msgid "Delivery From Date"
+msgstr "Доставка от"
+
+msgid "Delivery Reports"
+msgstr "отчет доставки"
+
+msgid "Delivery To Date"
+msgstr "Доставка до"
+
+msgid "Density (kg/h)"
+msgstr ""
+
+msgid "Description"
+msgstr "Описание"
+
+msgid "Destroy"
+msgstr "Удалить"
+
+msgid "Discount"
+msgstr "Скидка"
+
+msgid "Discount per kilo"
+msgstr "Скидка за 1 кг"
+
+msgid "Don't have enough inv to finish the order. Wait till it's feed mill jobs are done"
+msgstr "Нет достаточного количества продукта в запасе для завершения заказа. Подождите, пока  работа кормоцеха  не будет окончена."
+
+msgid "Don't have enough {op.product_type.display_name} on hand."
+msgstr "Не имеется достаточно {op.product_type.display_name} в наличии."
+
+msgid "Don't have enough {short_on} to reserve for {product_type.display_name} and we can't get it by then."
+msgstr "Не имеется достаточно {short_on}, чтобы зарезервировать для {product_type.display_name}  и мы не сможем получить это в запрашиваемый срок."
+
+msgid "Done"
+msgstr "Завершено"
+
+msgid "Download Sample"
+msgstr "скачать образец"
+
+msgid "Due Date"
+msgstr "Сроки"
+
+msgid "Due date"
+msgstr "Сроки"
+
+#, fuzzy
+msgid "Dup client"
+msgstr "Новый Клиент"
+
+#, fuzzy
+msgid "Dup client discounts"
+msgstr "Новая Скидка Клиенту"
+
+#, fuzzy
+msgid "Dup client id"
+msgstr "Новый Клиент"
+
+#, fuzzy
+msgid "Dup client name"
+msgstr "Имя Клиента"
+
+msgid "Dup client order ids"
+msgstr ""
+
+#, fuzzy
+msgid "DuplicateClient was successfully created."
+msgstr "Клиент был успешно создан."
+
+#, fuzzy
+msgid "DuplicateClient was successfully deleted."
+msgstr "Клиент был успешно удален."
+
+#, fuzzy
+msgid "DuplicateClient was successfully updated."
+msgstr "Клиент был успешно изменен"
+
+msgid "Earliest Can do it"
+msgstr "Ускоренные сроки"
+
+msgid "Edit"
+msgstr "Редактировать"
+
+msgid "Edit Inventory Delivery"
+msgstr "Редактировать Доставку Нового Инвентаря"
+
+msgid "Edit Product type"
+msgstr "Редактировать Вид Продукции"
+
+msgid "Editing bulk_discount"
+msgstr "Редактировать скидка_на_оптовую_закупку"
+
+msgid "Editing client"
+msgstr "Редактировать категорию \"Клиент\""
+
+msgid "Editing client_discount"
+msgstr "Редактировать скидка_клиенту"
+
+#, fuzzy
+msgid "Editing duplicate_client"
+msgstr "Редактировать категорию \"Клиент\""
+
+msgid "Editing extruded_inventory"
+msgstr "Редактировать экструдированный_инвентарь"
+
+msgid "Editing flock"
+msgstr "Редактировать  стаю"
+
+msgid "Editing holiday"
+msgstr "Редактировать Праздничный день"
+
+msgid "Editing internal_chicken_feed_order"
+msgstr "Редактировать внутренний_заказ_корма_для_кур"
+
+msgid "Editing inventory_adjustment"
+msgstr "Редактирование  регулирования инвентаря"
+
+#, fuzzy
+msgid "Editing inventory_transport"
+msgstr "Редактирование  регулирования инвентаря"
+
+msgid "Editing location"
+msgstr "Редактировать местонахождение "
+
+#, fuzzy
+msgid "Editing location_discount"
+msgstr "Редактировать скидка_клиенту"
+
+msgid "Editing lost_inventory"
+msgstr "Редактировать утерянный_инвентарь"
+
+msgid "Editing moved_inventory"
+msgstr "Редактировать перемещенный_инвентарь"
+
+msgid "Editing notification"
+msgstr "Редактировать уведомление"
+
+msgid "Editing order"
+msgstr "Редактировать заказ"
+
+msgid "Editing order_credit_payment"
+msgstr "Редактировать  заказ_оплата_кредита"
+
+msgid "Editing order_product"
+msgstr "Редактировать продукция_на_заказ"
+
+msgid "Editing order_time_threshold"
+msgstr "Редактировать Крайний срок, к которому должен быть выполнен заказ"
+
+msgid "Editing purchasing_order"
+msgstr "Редактировать заказ_на_покупку"
+
+msgid "Editing purchasing_payment"
+msgstr "Редактировать оплата_за_покупку"
+
+msgid "Editing ration"
+msgstr "Редактировать рацион"
+
+msgid "Editing ration_product"
+msgstr "Редактировать продукт_рациона"
+
+msgid "Editing split_feed_mill_job"
+msgstr "Редактировать распределенную_работу_комбикормового_цеха"
+
+msgid "Editing supplier"
+msgstr "Редактировать Поставщика"
+
+msgid "Editing working_day"
+msgstr "Редактировать рабочий_день"
+
+msgid "Email"
+msgstr "Электронная  почта"
+
+msgid "End Of Day Totals"
+msgstr " Остаток в конце дня"
+
+msgid "End Of Month Balance"
+msgstr "Остаток в конце месяца"
+
+msgid "Errors man!"
+msgstr ""
+
+msgid "Estimated Other Costs"
+msgstr "Предполагаемые другие расходы"
+
+msgid "Estimated Price Per Kilo"
+msgstr "Оговоренная цена за кг"
+
+msgid "Estimated Quantity"
+msgstr "Предполагаемое кол-во (кг)"
+
+msgid "Estimated Total Costs"
+msgstr "Предполагаемые общие расходы"
+
+msgid "Estimated Total cost"
+msgstr "Общая расчетная стоимость"
+
+msgid "Estimated quantity"
+msgstr "Расчетное количество"
+
+msgid "Estimated total cost"
+msgstr "Предполагаемая сумма"
+
+msgid "Euro"
+msgstr "Евро"
+
+msgid "Ex Reports"
+msgstr "Отчеты об экструдере"
+
+msgid "Expedition fee"
+msgstr "Оплата за ускоренные услуги"
+
+msgid "Expiration date"
+msgstr "Дата окончания скидки"
+
+msgid "Expires after amount"
+msgstr "Лимит (кг)"
+
+msgid "Extra feed to balance feed mill"
+msgstr "Дополнительные корма , чтобы сбалансировать кормоцех"
+
+msgid "Extrude Inventory"
+msgstr "Экструдированный Инвентарь"
+
+msgid "Extruded Inventory"
+msgstr "Экструдированный Инвентарь"
+
+msgid "Extruded Inventory Report"
+msgstr "Отчет по Экструдированному Инвентарю"
+
+msgid "ExtrudedInventory was successfully created."
+msgstr "Экструдированный инвентарь был успешно создан"
+
+#, fuzzy
+msgid "ExtrudedInventory was successfully updated."
+msgstr "Экструдированный инвентарь был успешно создан"
+
+#, fuzzy
+msgid "Extrusion Table"
+msgstr "Дата экструзии"
+
+msgid "Extrusion date"
+msgstr "Дата экструзии"
+
+msgid "Extrusion type not specified"
+msgstr ""
+
+msgid "Feed Dutch Nature chickens"
+msgstr "Корм для кур Dutch Nature"
+
+msgid "Feed Mill"
+msgstr "Кормоцех"
+
+msgid "Feed Mill Job"
+msgstr "Работа кормоцеха"
+
+msgid "Feed Mill Jobs By Day"
+msgstr "ежедневная работа  кормоцеха "
+
+#, fuzzy
+msgid "Feed Mill Location"
+msgstr "Местонахождение по умолчанию"
+
+#, fuzzy
+msgid "Feed Mill Location?"
+msgstr "Настройки Кормоцеха"
+
+msgid "Feed Mill Settings"
+msgstr "Настройки Кормоцеха"
+
+msgid "FeedMillJob was successfully created."
+msgstr "Работа комбикормового цеха успешно создана"
+
+msgid "FeedMillJob was successfully updated."
+msgstr "Работа комбикормового цеха успешно изменена"
+
+msgid "Fiber Percent"
+msgstr "Процент клетчатки"
+
+msgid "Final Amount"
+msgstr "Конечное количество"
+
+msgid "Find Amount By Price"
+msgstr ""
+
+msgid "First create a ration for {op.product_type.display_name}"
+msgstr "Вначале создайте рацион для {product_type.display_name}"
+
+msgid "First create a ration for {product_type.display_name}"
+msgstr "Вначале создайте рацион для {product_type.display_name}"
+
+msgid "First set \"price per kilo\" for {product_type.display_name}"
+msgstr "Вначале установите \"цену за кг\" для {product_type.display_name}"
+
+msgid "First set the price per kilo for {prod_type.display_name}"
+msgstr "Вначале установите цену за кг для {prod_type.display_name}"
+
+#, fuzzy
+msgid "Fix Change Log"
+msgstr "изменить  вход"
+
+msgid "Flock"
+msgstr "Стая"
+
+msgid "Flock Feed Summary"
+msgstr ""
+
+msgid "Flock Reports"
+msgstr "Отчеты о стае"
+
+msgid "Flock was successfully created."
+msgstr "Стая  было  успешно создано"
+
+msgid "Flock was successfully deleted."
+msgstr "Стая было  успешно удалено"
+
+msgid "Flock was successfully updated."
+msgstr "Стая  было  успешно обновлено"
+
+msgid "Flocks"
+msgstr "Стаи"
+
+msgid "Force order"
+msgstr "Произвести заказ все равно"
+
+msgid "From Client Order"
+msgstr "заказ клиента"
+
+msgid "From Date"
+msgstr "дата  с"
+
+msgid "From Extrusion"
+msgstr "Из экструдора"
+
+msgid "From Feed Mill Job"
+msgstr "из работы  кормоцеха"
+
+msgid "From Internal Order"
+msgstr "из   внутренного заказа"
+
+msgid "From Inventory Order"
+msgstr "из заказа наличия"
+
+#, fuzzy
+msgid "From Inventory Transport"
+msgstr "из заказа наличия"
+
+msgid "From Inventory adjustment"
+msgstr "Из регулирование наличия"
+
+#, fuzzy
+msgid "From Location"
+msgstr "Из Местонахождение"
+
+msgid "From Lost Inventory"
+msgstr "из потеряного  наличия"
+
+msgid "From Moved Inventory"
+msgstr "из  передвинутого наличия"
+
+msgid "From Order reservation. This should not be seen."
+msgstr "Из  бронировоного заказа. Это  должно  быть не видно"
+
+msgid "From and To locations must be different"
+msgstr "Должно отличаться от места к месту"
+
+msgid "From date"
+msgstr "дата  с"
+
+msgid "From editing the inventory directly"
+msgstr ""
+
+msgid "From job"
+msgstr "Из Работа"
+
+msgid "From location"
+msgstr "Из Местонахождение"
+
+msgid "Fullfiled"
+msgstr "Заполнено"
+
+msgid "Get a notification if order isn't picked up in these days"
+msgstr "Получить уведомление, если заказ не забран в ближайшие дни"
+
+msgid "Group feed mill job batch sheets?"
+msgstr ""
+
+msgid "Has paid"
+msgstr "был  оплачен"
+
+msgid "Holidays"
+msgstr "Праздничные дни"
+
+msgid "Hours from now pickup time defaults to"
+msgstr ""
+
+msgid "How many kg can the feed mill make each day?"
+msgstr "Сколько кг кормоцех может произвести за день?"
+
+msgid "I need a ration for {op.product_type.display_name} before I can tell you how long it will take to make. "
+msgstr "Мне необходимо знать рацион для {op.product_type.display_name} , чтобы сказать, сколько времени уйдет на то, чтобы сделать его."
+
+msgid "I need a ration for {product_type.display_name} before I can tell you how long it will take to make. "
+msgstr "Мне необходимо знать рацион для {op.product_type.display_name} , чтобы сказать, сколько времени уйдет на то, чтобы сделать его."
+
+msgid "Id"
+msgstr "Id"
+
+msgid "Import Clients"
+msgstr "Загрузить список клиентов"
+
+msgid "Import Rations"
+msgstr "Импортировать категорию \"Рационы\""
+
+msgid "Increased by"
+msgstr ""
+
+msgid "Info"
+msgstr "информация"
+
+msgid "Ingredient"
+msgstr "Ингредиент"
+
+msgid "Ingredient Prices"
+msgstr "Цены на Ингредиенты"
+
+msgid "Ingredient Usage"
+msgstr "Использование Ингредиентов"
+
+msgid "Ingredients"
+msgstr "Ингредиенты"
+
+msgid "Ingredients (must add up to 100%)"
+msgstr "Ингредиенты (должны составлять 100%)"
+
+msgid "Initial Balance"
+msgstr "начальный  баланс"
+
+msgid "InternalChickenFeedOrder was successfully created."
+msgstr "Внутренний Заказ на Корм для Кур был успешно создан."
+
+msgid "InternalChickenFeedOrder was successfully deleted."
+msgstr "Внутренний Заказ на Корм для Кур был успешно удален."
+
+msgid "InternalChickenFeedOrder was successfully updated."
+msgstr "Внутренний Заказ на Корм для Кур был успешно изменен."
+
+msgid "Inventory"
+msgstr "Инвентарь"
+
+msgid "Inventory Change Log"
+msgstr "журнал  измененого  инвентаря"
+
+msgid "Inventory Decrease total"
+msgstr ""
+
+msgid "Inventory Delivery Summary"
+msgstr "сумма  привезенного инвентаря"
+
+msgid "Inventory History Totals"
+msgstr "Общая история Инвентаря"
+
+msgid "Inventory Increase total"
+msgstr ""
+
+msgid "Inventory Replenishment"
+msgstr "Пополнение Инвентаря"
+
+msgid "Inventory Reports"
+msgstr "Отчеты об Инвентаре"
+
+msgid "Inventory Summary"
+msgstr "Сводка об Инвентаре"
+
+msgid "Inventory Tasks"
+msgstr "Задачи для Инвентаря"
+
+msgid "Inventory To Move"
+msgstr "Инвентарь для перемещения"
+
+msgid "Inventory Transport Item was successfully deleted."
+msgstr ""
+
+msgid "Inventory Transport Report"
+msgstr ""
+
+msgid "Inventory adjustment"
+msgstr "Регулирование инвентаря"
+
+msgid "Inventory was successfully created."
+msgstr "Инвентарь был успешно создан."
+
+msgid "Inventory was successfully deleted."
+msgstr "Инвентарь был успешно удален."
+
+msgid "Inventory was successfully updated."
+msgstr "Инвентарь был успешно изменен."
+
+msgid "InventoryAdjustment was successfully created."
+msgstr "Регулирование Инвентаря было успешно создано."
+
+#, fuzzy
+msgid "InventoryTransport was successfully created."
+msgstr "Регулирование Инвентаря было успешно создано."
+
+#, fuzzy
+msgid "InventoryTransport was successfully deleted."
+msgstr "Инвентарь был успешно удален."
+
+#, fuzzy
+msgid "InventoryTransport was successfully updated."
+msgstr "Инвентарь был успешно изменен."
+
+#, fuzzy
+msgid "Is Active"
+msgstr "является активным"
+
+#, fuzzy
+msgid "Is Active?"
+msgstr "является активным"
+
+msgid "Is acknowledged"
+msgstr "Просмотрено"
+
+msgid "Is active"
+msgstr "является активным"
+
+msgid "Is on credit"
+msgstr "(взято) в кредит"
+
+msgid "It's not possible to remove that amount, only {amount_in_inv} exists at that location"
+msgstr "Невозможно удалить это количество, только {amount_in_inv} существует в данном местонахождении"
+
+msgid "Job amounts"
+msgstr "Количество работ"
+
+msgid "Job#: "
+msgstr "Работа№:"
+
+msgid "Jobs Decrease total"
+msgstr ""
+
+msgid "Jobs Increase total"
+msgstr ""
+
+msgid "Jobs Table"
+msgstr ""
+
+msgid "Kazak tenge"
+msgstr "Казахский тенге"
+
+msgid "Kyrgyz som"
+msgstr "Кыргызский сом"
+
+msgid "Late Fee"
+msgstr "Фактическая пеня"
+
+msgid "Listing Feed Mill Ingredient Usage"
+msgstr ""
+
+msgid "Listing Purchasing Orders"
+msgstr "Список Заказов на покупку"
+
+msgid "Listing bulk_discounts"
+msgstr "Список скидок_на_оптовую_закупку"
+
+msgid "Listing client_discounts"
+msgstr "Список Скидок_Клиенту"
+
+msgid "Listing clients"
+msgstr "Список клиентов"
+
+#, fuzzy
+msgid "Listing duplicate_clients"
+msgstr "Список клиентов"
+
+msgid "Listing feed_mill_jobs"
+msgstr "Список работ_комбикормового_цеха"
+
+msgid "Listing flocks"
+msgstr "список стаи"
+
+msgid "Listing holidays"
+msgstr "Список праздничных дней"
+
+msgid "Listing internal_chicken_feed_orders"
+msgstr "Список внутренних_заказов_на корм_для_кур"
+
+msgid "Listing inventories"
+msgstr "Список Инвентаря"
+
+msgid "Listing inventory_transports"
+msgstr ""
+
+#, fuzzy
+msgid "Listing location_discounts"
+msgstr "Список Скидок_Клиенту"
+
+msgid "Listing locations"
+msgstr "Список местонахождений"
+
+msgid "Listing moved_inventories"
+msgstr "Список перемещенных_запасов"
+
+msgid "Listing order_credit_payments"
+msgstr "Список заказов_кредитной_оплаты"
+
+msgid "Listing order_products"
+msgstr "Список продукций _на_заказ"
+
+msgid "Listing order_time_thresholds"
+msgstr "Список \"Крайний срок, к которому должен быть выполнен заказ\""
+
+msgid "Listing orders"
+msgstr "Список Заказов"
+
+msgid "Listing product_types"
+msgstr "Список видов_продукций"
+
+msgid "Listing purchasing_payments"
+msgstr "Оплата_за_покупку"
+
+msgid "Listing ration_products"
+msgstr "Список продуктов_рациона"
+
+msgid "Listing rations"
+msgstr "Список рационов"
+
+msgid "Listing split_feed_mill_jobs"
+msgstr "Список распределенных_работ_комбикормового_цеха"
+
+msgid "Listing suppliers"
+msgstr "Список Поставщиков"
+
+msgid "Listing working_days"
+msgstr "Список рабочих-дней"
+
+msgid "Location"
+msgstr "Местонахождение"
+
+msgid "Location Discounts"
+msgstr "Скидка по месту продажи"
+
+msgid "Location Name"
+msgstr "Местонахождение"
+
+#, fuzzy
+msgid "Location amount for discount"
+msgstr "Количество для получения оптовой скидки"
+
+msgid "Location was successfully created."
+msgstr "Местонахождение было успешно создано."
+
+msgid "Location was successfully deleted."
+msgstr "Местонахождение было успешно удалено."
+
+msgid "Location was successfully updated."
+msgstr "Местонахождение было успешно изменено."
+
+#, fuzzy
+msgid "LocationDiscount was successfully created."
+msgstr "Скидка Клиенту была успешно создана."
+
+#, fuzzy
+msgid "LocationDiscount was successfully deleted."
+msgstr "Скидка Клиенту была успешно удалена."
+
+#, fuzzy
+msgid "LocationDiscount was successfully updated."
+msgstr "Скидка Клиенту была успешно изменена."
+
+msgid "Locations"
+msgstr "Местонахождение"
+
+msgid "Lost"
+msgstr "Утеряно"
+
+msgid "Lost Inventories"
+msgstr "Утерянные запасы"
+
+#, fuzzy
+msgid "Lost costs per kilo"
+msgstr "Скидка за 1 кг"
+
+msgid "LostInventory was successfully created."
+msgstr "УтерянныйИнвентарь был успешно создан."
+
+msgid "Made"
+msgstr "Создан"
+
+msgid "Make Ration From This"
+msgstr "Создать рацион из этого"
+
+msgid "Manage users"
+msgstr "Управлять пользователями"
+
+msgid "Merge"
+msgstr ""
+
+msgid "Merge Duplicate client"
+msgstr ""
+
+msgid "Min system should have on hand"
+msgstr "Минимальное количество, которое должно быть в наличии в системе"
+
+msgid "Mini Mix For"
+msgstr ""
+
+msgid "Mini Mix?"
+msgstr ""
+
+msgid "Mini mix"
+msgstr ""
+
+msgid "Mix"
+msgstr ""
+
+msgid "Moisture Percent"
+msgstr "Процент влажности"
+
+msgid "Morning EndTime"
+msgstr "Утренное  законченное время  "
+
+msgid "Morning StartTime"
+msgstr "Утренное  время начало "
+
+msgid "Morning endtime"
+msgstr "Утренное  законченное время "
+
+msgid "Morning starttime"
+msgstr "Утренное  время начало "
+
+msgid "Move Inventory"
+msgstr "Переместить Инвентарь"
+
+#, fuzzy
+msgid "Move Inventory Reports"
+msgstr "Отчеты об Инвентаре"
+
+msgid "Moved Date"
+msgstr "Дата перемещения"
+
+#, fuzzy
+msgid "Moved date"
+msgstr "Дата перемещения"
+
+msgid "Moved on date"
+msgstr ""
+
+msgid "MovedInventory was successfully created."
+msgstr "Перемещенные запасы были успешно созданы."
+
+#, fuzzy
+msgid "MovedInventory was successfully deleted."
+msgstr "Перемещенные запасы были успешно созданы."
+
+msgid "Movements Table"
+msgstr ""
+
+msgid "Name"
+msgstr "Название"
+
+msgid "Name RU"
+msgstr "Наименование на русском"
+
+msgid "Name Ru"
+msgstr "Название на русском"
+
+msgid "Negotiated price per kilo"
+msgstr "Оговоренная цена за 1 кг"
+
+msgid "New"
+msgstr "Новый"
+
+msgid "New Bulk discount"
+msgstr "Новая Скидка на оптовую закупку"
+
+msgid "New Client"
+msgstr "Новый Клиент"
+
+msgid "New Client discount"
+msgstr "Новая Скидка Клиенту"
+
+msgid "New Duplicate client"
+msgstr ""
+
+msgid "New Extruded inventory"
+msgstr "Новый Экструдированный Инвентарь"
+
+msgid "New Feed Mill Job"
+msgstr "Новая работа кормоцеха"
+
+msgid "New Flock"
+msgstr "Новая стая"
+
+msgid "New Holiday"
+msgstr "Новый Праздничный день"
+
+msgid "New Internal chicken feed order"
+msgstr "Новый внутренний заказ на корм для кур"
+
+msgid "New Inventory Delivery"
+msgstr "Доставка Нового Инвентаря"
+
+#, fuzzy
+msgid "New Inventory transport"
+msgstr "Доставка Нового Инвентаря"
+
+msgid "New Location"
+msgstr "Новое Местонахождение"
+
+#, fuzzy
+msgid "New Location discount"
+msgstr "Скидка по месту продажи"
+
+msgid "New Lost inventory"
+msgstr "Новый Утерянный Инвентарь"
+
+msgid "New Moved inventory"
+msgstr "Новый Перемещенный Инвентарь"
+
+msgid "New Order"
+msgstr "Новый заказ"
+
+msgid "New Order product"
+msgstr "Новая продукция на заказ"
+
+msgid "New Order time threshold"
+msgstr "Крайний срок, к которому должен быть выполнен заказ"
+
+msgid "New Product type"
+msgstr "Новый Вид Продукции"
+
+msgid "New Purchase Order"
+msgstr "Новый заказ на покупку"
+
+msgid "New Purchasing Order"
+msgstr "Новый заказ на покупку"
+
+msgid "New Purchasing order"
+msgstr "Новый заказ на покупку"
+
+msgid "New Ration"
+msgstr "Новый Рацион"
+
+msgid "New Ration product"
+msgstr "Новый продукт рациона"
+
+msgid "New Split feed mill job"
+msgstr "Новая распределенная работа кормоцеха"
+
+msgid "New Supplier"
+msgstr "Новый Поставщик"
+
+msgid "New Working day"
+msgstr "новый  день работы"
+
+msgid "New bulk_discount"
+msgstr "Новая Скидка на оптовую закупку"
+
+msgid "New client"
+msgstr "Новый Клиент"
+
+msgid "New client_discount"
+msgstr "Новая Скидка Клиенту"
+
+msgid "New extruded_inventory"
+msgstr "Новый Экструдированный Инвентарь"
+
+msgid "New flock"
+msgstr "Новая стая"
+
+msgid "New inventory adjustment"
+msgstr "Изменить инвентарь"
+
+#, fuzzy
+msgid "New location_discount"
+msgstr "Новая Скидка Клиенту"
+
+msgid "New lost_inventory"
+msgstr "Новый Утерянный Инвентарь"
+
+msgid "New moved_inventory"
+msgstr "Новый Перемещенный Инвентарь"
+
+msgid "New order"
+msgstr "Новый заказ"
+
+msgid "New order_credit_payment"
+msgstr "Показать заказ_кредитная_оплата"
+
+msgid "New purchasing_order"
+msgstr "Новый заказ на покупку"
+
+msgid "New purchasing_payment"
+msgstr "Новая оплата_за_покупку"
+
+msgid "New ration"
+msgstr "Новый Рацион"
+
+msgid "New supplier"
+msgstr "Новый Поставщик"
+
+msgid "No"
+msgstr "Нет"
+
+msgid "No data for this date"
+msgstr ""
+
+msgid "No history"
+msgstr "нет истории"
+
+msgid "Normal Completion Time"
+msgstr "Сроки выполнения заказа"
+
+msgid "Not Started"
+msgstr "Не начато"
+
+msgid "Notes"
+msgstr "Заметки"
+
+msgid "Notification was successfully created."
+msgstr "Уведомления были успешно созданы."
+
+msgid "Notification was successfully deleted."
+msgstr "Уведомления были успешно удалены."
+
+msgid "Notification was successfully updated."
+msgstr "Уведомления были успешно изменены."
+
+msgid "Notifications"
+msgstr "Уведомления."
+
+msgid "Oil Percent"
+msgstr "Процент жиров"
+
+msgid "On Credit"
+msgstr "В долг"
+
+msgid "On Credit?"
+msgstr "В долг?"
+
+msgid "Opening Values"
+msgstr ""
+
+msgid "Order"
+msgstr "Заказ"
+
+msgid "Order Date"
+msgstr "Дата заказа"
+
+msgid "Order From Date"
+msgstr "Дата с"
+
+msgid "Order Id"
+msgstr "ID Заказа"
+
+msgid "Order More"
+msgstr "Заказать еще"
+
+msgid "Order Notifications"
+msgstr "Уведомления Заказа"
+
+msgid "Order Pickup Time"
+msgstr "Время получения заказа"
+
+msgid "Order Reports"
+msgstr "Отчеты о заказах"
+
+msgid "Order Settings"
+msgstr "Настройки Заказа"
+
+msgid "Order Time Thresholds"
+msgstr "Крайний срок, к которому должен быть выполнен заказ"
+
+msgid "Order To Date"
+msgstr "по"
+
+msgid "Order date"
+msgstr "Дата заказа"
+
+msgid "Order product was successfully created."
+msgstr "Продукция на заказ была успешно создана."
+
+msgid "Order product was successfully destroyed."
+msgstr "Продукция на заказ была успешно удалена."
+
+msgid "Order product was successfully updated."
+msgstr "Продукция на заказ была успешно изменена."
+
+msgid "Order time threshold was successfully created."
+msgstr "Крайний срок, к которому должен быть выполнен заказ был успешно создан."
+
+msgid "Order time threshold was successfully destroyed."
+msgstr "Крайний срок, к которому должен быть выполнен заказ был успешно удален."
+
+msgid "Order time threshold was successfully updated."
+msgstr "Крайний срок, к которому должен быть выполнен заказ был успешно изменен."
+
+msgid "Order type"
+msgstr "Тип заказа"
+
+msgid "Order was successfully created"
+msgstr "Заказ был успешно создан"
+
+msgid "Order was successfully created and completed"
+msgstr "Заказ был успешно создан и  завершен"
+
+msgid "Order was successfully deleted."
+msgstr "Заказ был успешно удален."
+
+msgid "Order was successfully updated."
+msgstr "Заказ был успешно изменен."
+
+msgid "OrderCreditPayment was successfully deleted."
+msgstr "Заказ кредитной  оплаты  успешно удален"
+
+msgid "OrderCreditPayment was successfully updated."
+msgstr "Заказ кредитной  оплаты  успешно  обновлен"
+
+msgid "Orders"
+msgstr "Заказы"
+
+msgid "Orders By Day"
+msgstr "Ежедневные заказы"
+
+msgid "Orders Decrease total"
+msgstr ""
+
+msgid "Orders Increase total"
+msgstr ""
+
+#, fuzzy
+msgid "Orders Table"
+msgstr "Дата заказа"
+
+msgid "Original balance"
+msgstr "оригинальный баланс"
+
+msgid "Other Costs"
+msgstr "Другие расходы"
+
+#, fuzzy
+msgid "Other costs per kilo"
+msgstr "Стоимость за кг"
+
+msgid "Patent"
+msgstr "ФИО по документам"
+
+msgid "Patent Name"
+msgstr "Имя патента"
+
+#, fuzzy
+msgid "Patent id"
+msgstr "ФИО по документам"
+
+msgid "Patent name"
+msgstr "Имя патента"
+
+msgid "Patents"
+msgstr "Патенты"
+
+msgid "Payment Due date"
+msgstr "Крайний срок оплаты"
+
+msgid "Payment duedate"
+msgstr "Оплатить до (дата)"
+
+msgid "Payments"
+msgstr "Оплата"
+
+msgid "Percent"
+msgstr "Процент"
+
+msgid "Percent Soy Bean Lost"
+msgstr "Норма потери сои"
+
+msgid "Percentage lost when Soy bean is extruded to Soy Bean Meal"
+msgstr "Процентная потеря при переработке сои в соевую муку"
+
+msgid "Percentage lost when Soy bean is extruded to Soy Bean Pressed"
+msgstr "Процентная потеря при переработке сои в соевую муку"
+
+msgid "Permission was successfully created."
+msgstr "Разрешение было успешно создано."
+
+msgid "Permission was successfully updated."
+msgstr "Разрешение было успешно изменено."
+
+#, fuzzy
+msgid "Phone"
+msgstr "Номер телефона 1"
+
+msgid "Phone1"
+msgstr "Номер телефона 1"
+
+msgid "Phone2"
+msgstr "Номер телефона 2"
+
+msgid "Phone3"
+msgstr "Номер телефона 3"
+
+#, fuzzy
+msgid "Pickup Time"
+msgstr "Время получения заказа"
+
+msgid "Pickup time"
+msgstr "Время получения заказа"
+
+msgid "Please upload a file"
+msgstr "Пожалуйста, загрузите файл"
+
+msgid "Possible Duplicates"
+msgstr ""
+
+msgid "Price"
+msgstr "Цена"
+
+msgid "Price Per Kilo"
+msgstr "Цена за 1 кг"
+
+msgid "Price Sheet"
+msgstr "Прейскурант"
+
+msgid "Price to set soy bean oil to"
+msgstr "Цена  для соевого масло"
+
+msgid "Print Batch Sheet"
+msgstr "Распечатать Лист учета производства корма"
+
+msgid "Print Batch Sheets"
+msgstr "Распечатать Batch Sheet"
+
+msgid "Print Receipt"
+msgstr "Распечатать квитанцию"
+
+msgid "Print Receipts"
+msgstr "Распечатать квитанции"
+
+msgid "Processing Info Summary"
+msgstr "Сводка о сроках заказа"
+
+msgid "Processing Infromation "
+msgstr "Информация заказа"
+
+msgid "Product Category"
+msgstr "Категория продукции"
+
+msgid "Product Name"
+msgstr "Название продукции"
+
+msgid "Product Type"
+msgstr "Вид продукции"
+
+msgid "Product Type Name"
+msgstr "Тип продукции"
+
+msgid "Product Types"
+msgstr "Виды продукции"
+
+msgid "Product category"
+msgstr "Категория продукции"
+
+msgid "Product name"
+msgstr "Название продукции"
+
+msgid "Product name ru"
+msgstr "Название продукции на русском"
+
+msgid "Product type"
+msgstr "Вид продукции (англ.)"
+
+msgid "ProductType was successfully created."
+msgstr "Вид продукции была успешно создана."
+
+msgid "ProductType was successfully deleted."
+msgstr "Вид продукции была успешно удалена."
+
+msgid "ProductType was successfully updated."
+msgstr "Вид продукции была успешно изменена."
+
+msgid "Products"
+msgstr "Продукция"
+
+msgid "Products must add up to 100 percent. Was  under by {kilos}"
+msgstr "Ингредиенты должны составлять 100 процентов. Было положено на {kilos} меньше"
+
+msgid "Products must add up to 100 percent. Was over by {kilos}"
+msgstr "Ингредиенты должны составлять 100 процентов. Было положено на {kilos} больше"
+
+msgid "Products must add up to 500kg. Was  under by {kilos} kgs"
+msgstr "Ингредиенты должны составлять 500 кг. Было положено на {kilos} кг меньше"
+
+msgid "Products must add up to 500kg. Was over by {kilos} kgs"
+msgstr "Ингредиенты должны составлять 500 кг. Было положено на {kilos} кг больше"
+
+msgid "Producttype"
+msgstr "Видпродукции"
+
+msgid "Protein Percent"
+msgstr "Процент белков"
+
+msgid "Purchase Order"
+msgstr "Заказ на покупку"
+
+msgid "PurchaseOrder was successfully created."
+msgstr "Заказ на Покупку был успешно создан."
+
+msgid "PurchaseOrder was successfully deleted."
+msgstr "Заказ на Покупку был успешно удален."
+
+msgid "PurchaseOrder was successfully updated."
+msgstr "Заказ на Покупку был успешно изменен."
+
+msgid "Purchased date"
+msgstr "Дата покупки"
+
+msgid "Purchased price"
+msgstr "Стоимость покупки"
+
+msgid "Purchased price per kg in som"
+msgstr "Стоимость покупки за 1 кг в сомах"
+
+#, fuzzy
+msgid "Purchases"
+msgstr "Заказ на покупку"
+
+msgid "Purchasing Order"
+msgstr "Заказ на покупку"
+
+msgid "Purchasing Orders"
+msgstr "Заказы на покупку"
+
+msgid "Purchasing Orders Summary"
+msgstr "Сводка о Заказах на покупку"
+
+msgid "Purchasing Payments"
+msgstr "Оплата за Покупку"
+
+msgid "Purchasing order"
+msgstr "Заказ на покупку"
+
+msgid "Quantity"
+msgstr ""
+
+msgid "Queue number"
+msgstr "Номер очереди"
+
+msgid "RU"
+msgstr ""
+
+msgid "Ration"
+msgstr "Рацион"
+
+msgid "Ration Name"
+msgstr "Название рациона"
+
+msgid "Ration percent"
+msgstr "Процент Рациона"
+
+msgid "Ration was successfully created."
+msgstr "Рацион был успешно создан."
+
+msgid "Ration was successfully deleted."
+msgstr "Рацион был успешно удален."
+
+msgid "Ration was successfully updated."
+msgstr "Рацион был успешно изменен."
+
+msgid "RationProduct was successfully created."
+msgstr "Продукт рациона был успешно создан."
+
+msgid "RationProduct was successfully deleted."
+msgstr "Продукт рациона был успешно удален."
+
+msgid "RationProduct was successfully updated."
+msgstr "Продукт рациона был успешно изменен."
+
+msgid "Rations"
+msgstr "Рационы"
+
+msgid "Raw Material Usage"
+msgstr "Затраты сырья"
+
+msgid "Ready Feed"
+msgstr "Готовый корм"
+
+msgid "Ready For Pickup"
+msgstr "Готово для забора"
+
+msgid "Reason"
+msgstr "Причина"
+
+msgid "Received amount can't be empty when there is a purchase order."
+msgstr "Поле \"Полученное количество\" не может быть пустым, когда имеется заказ на покупку."
+
+msgid "Refresh"
+msgstr "Обновить"
+
+msgid "Remaining Debt"
+msgstr "Оставшийся долг"
+
+msgid "Remaining debt"
+msgstr "Оставшийся долг"
+
+msgid "Remove"
+msgstr "Удалить"
+
+msgid "Replenishment order"
+msgstr "Пополненный заказ"
+
+msgid "Reported by user"
+msgstr "Имя пользователя, сообщившего это"
+
+msgid "Reports"
+msgstr "Отчеты"
+
+msgid "Results Summary"
+msgstr "Сводка об Инвентаре"
+
+msgid "Role was successfully created."
+msgstr "Роль была успешно создана."
+
+msgid "Role was successfully updated."
+msgstr "Роль была успешно изменена."
+
+msgid "Roles"
+msgstr "Роли"
+
+#, fuzzy
+msgid "Round Receipts?"
+msgstr "Распечатать квитанции"
+
+msgid "Russian Ruble"
+msgstr "Российский Рубль"
+
+msgid "Sale Price Per Kilo"
+msgstr "Цена продажи за 1 кг"
+
+msgid "Sales History"
+msgstr "История  продажы"
+
+msgid "Sales last 30 days"
+msgstr "Продажи за последние 30 дней"
+
+msgid "Search"
+msgstr "Поиск"
+
+msgid "See All Notifications"
+msgstr "Посмотреть все уведомления"
+
+msgid "Select a product"
+msgstr "Выбрать продукцию"
+
+msgid "Select at least on job to print batch sheets for."
+msgstr "Выберите по крайней мере одно задание на печать листов учета производства корма."
+
+msgid "Select at least one Order to print receipt for."
+msgstr "Выбрать как  минимум один заказ для распечатки квитанции"
+
+msgid "Set Active"
+msgstr "выбрать Активно"
+
+msgid "Set a sale price per kilo"
+msgstr "Установить цену на продажу 1 кг"
+
+msgid "Set amount to"
+msgstr "Количество должно быть"
+
+msgid "Set amount to (must be >= 0)"
+msgstr "Назначить обновленное кол-во"
+
+msgid "Set product amount for {prod_type.display_name}"
+msgstr "Укажите количество ингредиента для {prod_type.display_name}"
+
+msgid "Setting was successfully updated."
+msgstr "Настройки были успешно изменены."
+
+msgid "Settings"
+msgstr "Настройки"
+
+msgid "Should never have more than one feed mill balance order"
+msgstr "Не должно быть более одного заказа на баланс кормоцеха"
+
+msgid "Show"
+msgstr "Показать"
+
+msgid "Show Processing Summary"
+msgstr "Показать Сводку о сроках заказа"
+
+msgid "Show bulk_discount"
+msgstr "Показать Скидку_на_оптовую_закупку"
+
+msgid "Show client"
+msgstr "Показать клиента"
+
+msgid "Show client_discount"
+msgstr "Показать скидку_клиенту"
+
+msgid "Show completed orders?"
+msgstr "Показать завершенные заказы?"
+
+#, fuzzy
+msgid "Show duplicate_client"
+msgstr "Показать клиента"
+
+msgid "Show extruded_inventory"
+msgstr "Показать экструдированные запасы"
+
+msgid "Show feed_mill_job"
+msgstr "Показать работу_комбикормового_цеха"
+
+msgid "Show finished jobs?"
+msgstr "Показать завершенные работы?"
+
+msgid "Show flock"
+msgstr "Показать Стаю"
+
+msgid "Show holiday"
+msgstr "Показать праздничный день"
+
+#, fuzzy
+msgid "Show inactive"
+msgstr "Показать неактивное?"
+
+msgid "Show inactive?"
+msgstr "Показать неактивное?"
+
+msgid "Show internal_chicken_feed_order"
+msgstr "Показать внутренний_заказ_на_корм_для_кур"
+
+msgid "Show inventory"
+msgstr "Показать инвентарь"
+
+msgid "Show inventory_adjustment"
+msgstr "Показать регулирование инвентаря"
+
+#, fuzzy
+msgid "Show inventory_transport"
+msgstr "Показать регулирование инвентаря"
+
+msgid "Show location"
+msgstr "Показать местонахождение"
+
+msgid "Show lost_inventory"
+msgstr "Показать утерянные_запасы"
+
+msgid "Show moved_inventory"
+msgstr "Показать перемещенные_запасы"
+
+msgid "Show notification"
+msgstr "Показать уведомления"
+
+msgid "Show order"
+msgstr "Показать заказ"
+
+msgid "Show order_credit_payment"
+msgstr "Показать заказ_кредитная_оплата"
+
+msgid "Show order_product"
+msgstr "Показать продукциию_на_заказ"
+
+msgid "Show order_time_threshold"
+msgstr "Показать Крайний срок, к которому должен быть выполнен заказ"
+
+msgid "Show product_type"
+msgstr "Показать вид_продукции"
+
+msgid "Show purchasing_order"
+msgstr "Показать заказ_на_покупку"
+
+msgid "Show purchasing_payment"
+msgstr "Показать оплату_за_покупку"
+
+msgid "Show ration"
+msgstr "Показать рацион"
+
+msgid "Show ration_product"
+msgstr "Показать продукт_рациона"
+
+msgid "Show split_feed_mill_job"
+msgstr "Показать работу_комбикормового_цеха"
+
+msgid "Show supplier"
+msgstr "Показать поставщика"
+
+msgid "Show working_day"
+msgstr "Показать рабочий_день"
+
+msgid "Shrinkage"
+msgstr "Усушка"
+
+msgid "Skip Discounts?"
+msgstr "Пропустить  скидку?"
+
+msgid "Skip Feed Mill Balance?"
+msgstr "Пропустить балансировку партии?"
+
+msgid "Skip Feed Mill Job?"
+msgstr "Пропустить задачу кормоцеха?"
+
+msgid "Skip Internal order jobs?"
+msgstr ""
+
+msgid "Skip client order jobs?"
+msgstr ""
+
+msgid "Soy Bean Meal"
+msgstr "Полножирная соя"
+
+msgid "Soy Bean Meal Extrusion"
+msgstr ""
+
+msgid "Soy Bean Oil"
+msgstr "Соевое масло"
+
+msgid "Soy Bean Pressed"
+msgstr "Соевый жмых"
+
+msgid "Soy Bean Pressed Extrusion"
+msgstr "Соевый жмых"
+
+msgid "Soy Bean Used"
+msgstr "Соя использована"
+
+msgid "Soy bean meal product type"
+msgstr "Вид продукции соевой муки"
+
+msgid "Soy bean product type"
+msgstr "Вид продукции соевой муки"
+
+msgid "Start Of Month Balance"
+msgstr "Остаток в начале месяца"
+
+#, fuzzy
+msgid "Start date"
+msgstr "Началась"
+
+msgid "Started"
+msgstr "Началась"
+
+msgid "Status"
+msgstr "Статус"
+
+msgid "String"
+msgstr "-"
+
+msgid "Sub Total"
+msgstr "Промежуточный итог"
+
+msgid "Subject"
+msgstr "Текст"
+
+msgid "Submit"
+msgstr "Найти"
+
+msgid "Successfully imported {rows} rows"
+msgstr "Успешно импортированные {rows} строки"
+
+msgid "Successfully imported: {rations}"
+msgstr "Успешно импортированные {rations} "
+
+msgid "Successfully updated job {id}"
+msgstr "Успешно обновленная  работа"
+
+msgid "Successfully updated ration {id}"
+msgstr "Успешно обновленный  рацион"
+
+msgid "Sucessfully undone."
+msgstr ""
+
+msgid "Suggested Late fee"
+msgstr "Предполагаемая пеня"
+
+msgid "Summary"
+msgstr "Сводка"
+
+msgid "Super Mix"
+msgstr "Супер микс"
+
+msgid "Supplier"
+msgstr "Поставщик"
+
+msgid "Supplier Name"
+msgstr "Имя поставщика"
+
+msgid "Supplier was successfully created."
+msgstr "Поставщик был успешно создан."
+
+msgid "Supplier was successfully deleted."
+msgstr "Поставщик был успешно удален."
+
+msgid "Supplier was successfully updated."
+msgstr "Поставщик был успешно изменен."
+
+msgid "Suppliers"
+msgstr "Поставщики"
+
+msgid "System Discrepancy"
+msgstr "Несовподение в системе"
+
+msgid "System Message"
+msgstr "Системные сообщения"
+
+msgid "System Notifications"
+msgstr "Системные уведомления"
+
+msgid "System Settings"
+msgstr "Системные Настройки"
+
+msgid "Takes {days} day(s) to order more {op.product_type.display_name}."
+msgstr "Потребуется {days} день(дней), чтобы заказать еще {op.product_type.display_name}."
+
+msgid "Takes {rp.product_type.days_to_order_more} day(s) to order more {rp.product_type.display_name}."
+msgstr "Потребуется {rp.product_type.days_to_order_more} день (дней), чтобы заказать еще {rp.product_type.display_name}."
+
+msgid "Tests"
+msgstr "Тесты"
+
+msgid "Text"
+msgstr "Тексты"
+
+msgid "The feed mill job itself would take {minutes_job_would_take} minutes."
+msgstr "Процесс работы кормоцеха займет {minutes_job_would_take} минут."
+
+msgid "The following errors prohibited this from being saved"
+msgstr "Невозможно сохранить в связи со следующими ошибками"
+
+msgid "There are {days} days off between now and the estimated completion time."
+msgstr "Осталось {days} дней до назначенного срока окончания процесса."
+
+msgid "There are {hours} hours of other jobs before this could start."
+msgstr "Осталось {hours} часов до окончания начатого процесса, поэтому Ваш запрос на данное действие не может быть выполнен."
+
+msgid "There is only {free_soy_bean}kg of Soy Bean and {soy_been_needed}kg is needed. Extrude up to {max_amount}"
+msgstr "Осталось только {free_soy_bean}кг Сои, а требуется {soy_been_needed}кг. Произведите переработку {max_amount}"
+
+msgid "This record changed while you were editing. Take these changes into account and submit it again."
+msgstr "Данная запись была изменена в процессе редактирования. Примите во внимание эти изменения и отправьте снова."
+
+msgid "To Date"
+msgstr "по"
+
+#, fuzzy
+msgid "To Location"
+msgstr "В местонахождение"
+
+msgid "To job"
+msgstr "в Работа"
+
+msgid "To location"
+msgstr "В местонахождение"
+
+msgid "Toggle navigation"
+msgstr "Переключить навигации"
+
+msgid "Total"
+msgstr "Итого"
+
+msgid "Total Amount of money"
+msgstr ""
+
+#, fuzzy
+msgid "Total Changes"
+msgstr "Общая  продажа"
+
+msgid "Total Free"
+msgstr "Итого свободный"
+
+msgid "Total Inv"
+msgstr "Итого инв"
+
+msgid "Total Kg"
+msgstr "Итого кг"
+
+msgid "Total Price"
+msgstr "Обшая  цена"
+
+msgid "Total Received kilos"
+msgstr "Итого доставленного кол-ва"
+
+msgid "Total Sales"
+msgstr "Общая  продажа"
+
+#, fuzzy
+msgid "Total Value"
+msgstr "Общая  продажа"
+
+#, fuzzy
+msgid "Total amount"
+msgstr "Итого кг"
+
+#, fuzzy
+msgid "Total amount:"
+msgstr "Итого кг"
+
+msgid "Total cost"
+msgstr "Общая стоимость"
+
+msgid "Total costs"
+msgstr "Фактические общие расходы"
+
+msgid "Totals"
+msgstr "Итого"
+
+msgid "Type"
+msgstr "Вид"
+
+msgid "Type RU"
+msgstr "Вид продукции (рус.)"
+
+msgid "US Dollar"
+msgstr "Доллар США"
+
+msgid "Undo"
+msgstr ""
+
+msgid "Undo Job"
+msgstr "аннулировать"
+
+#, fuzzy
+msgid "Undo move"
+msgstr "Аннулировать"
+
+msgid "Up To"
+msgstr "вплоть до"
+
+msgid "Update"
+msgstr "Изменить"
+
+msgid "Update Bulk discount"
+msgstr "Изменить скидку на оптовую закупку"
+
+msgid "Update Client"
+msgstr "Изменить Клиента"
+
+msgid "Update Client discount"
+msgstr "Изменить Скидку клиенту"
+
+msgid "Update Extruded inventory"
+msgstr "Изменить Экструдированный Инвентарь"
+
+msgid "Update Feed mill job"
+msgstr "Изменить работу кормоцеха"
+
+msgid "Update Flock"
+msgstr "Обновить стаю"
+
+msgid "Update Holiday"
+msgstr "Изменить Праздничный день"
+
+msgid "Update Internal chicken feed order"
+msgstr "Изменить Внутренний заказ корма для кур"
+
+msgid "Update Inventory"
+msgstr "Изменить Инвентарь"
+
+msgid "Update Location"
+msgstr "Изменить Местонахождение"
+
+#, fuzzy
+msgid "Update Location discount"
+msgstr "Изменить Скидку клиенту"
+
+msgid "Update Lost inventory"
+msgstr "Изменить Утерянный Инвентарь"
+
+#, fuzzy
+msgid "Update Moved inventory"
+msgstr "Создать Перемещенный Инвентарь"
+
+msgid "Update Notification"
+msgstr "Изменить Уведомления"
+
+msgid "Update Order"
+msgstr "Изменить заказ"
+
+msgid "Update Order credit payment"
+msgstr "Обновить  заказы кредитной  оплаты"
+
+msgid "Update Order product"
+msgstr "Изменить продукцию на заказ"
+
+msgid "Update Order time threshold"
+msgstr "Изменить Крайний срок, к которому должен быть выполнен заказ"
+
+msgid "Update Product type"
+msgstr "Изменить вид продукции"
+
+msgid "Update Purchasing order"
+msgstr "Изменить заказ на покупку"
+
+msgid "Update Purchasing payment"
+msgstr "Изменить Оплату за Покупку"
+
+msgid "Update Ration"
+msgstr "Изменить рацион"
+
+msgid "Update Ration product"
+msgstr "Изменить продукт рациона"
+
+msgid "Update Settings"
+msgstr "Изменить установки"
+
+msgid "Update Split feed mill job"
+msgstr "Изменить распределенную работу кормоцеха"
+
+msgid "Update Supplier"
+msgstr "Изменить Поставщика"
+
+msgid "Update Working day"
+msgstr "Изменить Рабочий день"
+
+msgid "Updated On"
+msgstr "Изменено"
+
+msgid "Upload Image"
+msgstr "Загрузить рисунок"
+
+msgid "Urea Activity Percent"
+msgstr "Процент активности уреазы"
+
+msgid "Use jobs to fill orders over XXXX kg"
+msgstr ""
+
+msgid "Use one or the other but not both"
+msgstr "Заполните только одну строку (не обе)"
+
+msgid "Used Last 30 days"
+msgstr "Использовался в последние 30 дней"
+
+msgid "Used/Sold costs"
+msgstr ""
+
+msgid "User user was successfully created."
+msgstr "Пользователь был успешно создан."
+
+msgid "User user was successfully destroyed."
+msgstr "Пользователь был успешно удален."
+
+msgid "User user was successfully updated."
+msgstr "Пользователь был успешно изменен."
+
+msgid "Users"
+msgstr "Пользователи"
+
+msgid "Value must be <> 0"
+msgstr ""
+
+msgid "View"
+msgstr "Просмотр"
+
+msgid "Waiting On Feed Mill"
+msgstr "В ожидании кормоцеха"
+
+msgid "Weighted Avg Purchased Price"
+msgstr "Средневзвешенная цена"
+
+msgid "Work Schedule"
+msgstr "расписание   работы"
+
+msgid "Yes"
+msgstr "Да"
+
+msgid "You are not authorized to do this action"
+msgstr "У Вас нет доступа к данному действию"
+
+msgid "You can't have a credit payment for anything but a client order. Perhaps you should delete this credit payment?"
+msgstr ""
+
+msgid "You can't make any other changes when completing an order."
+msgstr "Вы не можете делать какие-либо другие изменения при заполнении заказа."
+
+msgid "You can't move a feed mill balance order"
+msgstr "Невозможно переместить заказ на баланс кормоцеха"
+
+msgid "You can't move all of the orders to another job because that makes no sense."
+msgstr "Невозможно переместить все заказы в другую работу."
+
+msgid "You do not have permission to do this"
+msgstr "У Вас нет разрешения к данному действию"
+
+msgid "You must choose or create a purchase_order"
+msgstr ""
+
+msgid "You must move some inventory"
+msgstr "Необходимо переместить некоторый инвентарь"
+
+msgid "You must set either the change amount by or set amount to"
+msgstr ""
+
+msgid "You must set the change amount by or set amount to but not both"
+msgstr ""
+
+msgid "adjustment date"
+msgstr "Дата изменения"
+
+msgid "ago"
+msgstr "назад"
+
+msgid "avg Purchased Price"
+msgstr "приблизительная Цена Покупки"
+
+msgid "balance_amount"
+msgstr "Кг для балансировки партии"
+
+msgid "can't be empty"
+msgstr "не может быть пустым"
+
+msgid "can't have two lookup names with the same value"
+msgstr ""
+
+msgid "chicken_amount"
+msgstr "Кг для своих кур"
+
+msgid "choose a client"
+msgstr "выбрать клиента"
+
+msgid "clients_amount"
+msgstr "Кг клиентам"
+
+#, fuzzy
+msgid "clients_cash"
+msgstr "Кг клиентам"
+
+#, fuzzy
+msgid "clients_credit"
+msgstr "Кг клиентам"
+
+msgid "extrusion type not specified be empty"
+msgstr ""
+
+msgid "inventory_amount"
+msgstr "Кг для пополнения инвентаря"
+
+msgid "kg."
+msgstr "кг."
+
+msgid "name"
+msgstr "название"
+
+msgid "prohibited this admin_user from being saved:"
+msgstr "запрещается сохранить данного админ_пользователя"
+
+msgid "prohibited this from being saved"
+msgstr "запрещается сохранить это"
+
+msgid "total_amount"
+msgstr "Итого кг"
+
+msgid "{rp.product_type.display_name} needs to have days_to_order_more set first."
+msgstr "для {rp.product_type.display_name} вначале необходимо заполнить поле Количество_дней_чтобы_заказать_еще."
+
+msgid "Взял пробу? (да / нет)"
+msgstr ""
+
+msgid "Код Бригадира"
+msgstr ""
+
+msgid "Код Оператора"
+msgstr ""
+
+msgid "Мини-Микс"
+msgstr ""
+
+msgid "Объём партии"
+msgstr ""
+
+msgid "Подпись Бригадира"
+msgstr ""
+
+msgid "Подпись Оператора"
+msgstr ""
+
+msgid "Часть рациона"
+msgstr ""
+
+msgid "основной"
+msgstr ""
+
+msgid "№ Миксера"
+msgstr ""
+
+#~ msgid "Undo Move"
+#~ msgstr "Аннулировать"
+
+#~ msgid "New Location Discount (button)"
+#~ msgstr "Новая скидка по месту продажи"
+
+#~ msgid "Amount of Soy Bean Lost"
+#~ msgstr "Использование соевых бобов"
+
+#~ msgid "Amount Ordered"
+#~ msgstr "Заказанное количество"
+
+#~ msgid "Amount Received"
+#~ msgstr "Полученное количество"
+
+#~ msgid "Default Location"
+#~ msgstr "Местонахождение по умолчанию"
+
+#~ msgid "Default?"
+#~ msgstr "По умолчанию?"
+
+#~ msgid "FeedMillJob was successfully deleted."
+#~ msgstr "Работа комбикормового цеха успешно удалена"

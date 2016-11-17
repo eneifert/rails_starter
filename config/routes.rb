@@ -1,19 +1,21 @@
-Rails.application.routes.draw do  
+Rails.application.routes.draw do    
   
-  
-  get 'home/index'
+  scope "(:locale)", locale: /en/ do    
 
-  devise_for :admin, controllers: { sessions: "admin/sessions" }
-  devise_scope :admin do 
-    get '/admin/sign_out' => 'admin/sessions#destroy'
+    resources :permissions
+    resources :roles
+    
+    devise_for :users, controllers: { sessions: "sessions", passwords: "passwords" }, :path_prefix => 'devise'
+    devise_scope :user do 
+      get '/devise/users/sign_out' => 'sessions#destroy'
+    end      
+
+    resources :users
+
+    get 'todo', to: 'home#todo', as: :todo
+
+    get 'test' , to: 'tests#index'    
+    # get 'super_secret_route_that_clears_outs_the_stuff_yo', to: 'tests#super_secret_route_that_clears_outs_the_stuff_yo'
+    root 'home#index'
   end
-  resources :admins, path: 'admin/users', controller: 'admin/users'
-
-  namespace :admin do
-    # resources :survey_results
-
-    get '', to: 'home#index', as: 'home'    
-  end
-
-  root 'home#index'
 end

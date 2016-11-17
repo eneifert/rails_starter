@@ -1,0 +1,12 @@
+:output:  
+  InventoryChange:
+    :options:
+      :resize: false
+      :fields:
+        - id
+        - amount_was
+        - amount_changed_by
+        - balance
+        - amount_was_based_on_change_date
+        - balance_based_on_change_date
+        - change_date

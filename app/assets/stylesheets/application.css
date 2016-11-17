@@ -13,10 +13,14 @@
 *= require_tree .
 
 *= require_self
-*= bootstrap-sprockets
-*= bootstrap
-*= bootstrap-select.min
-*= bootswatch.min
-*= font-awesome
-*= styles
+*= require bootstrap.min
+*= require font-awesome.min
+*= require bootstrap-select.min
+*= require sb-admin
+*= require admin_styles
+*= require select2.min
+*= require select2-bootstrap
+*= require bootstrap-datetimepicker
+*= require styles
 */
+

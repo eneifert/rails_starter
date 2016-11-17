@@ -1,0 +1,6 @@
+<% field_name = nil_or_undefined?(field_name) ? "supplier_id" : field_name %>
+<select class="supplier-picker" name="<%= model_name %>[<%= field_name %>]" multiple style="width:100%;">
+	<% if !supplier.nil? %>
+		<option value="<%= supplier.id %>" selected><%= supplier.label_text %></option>
+	<% end %>
+</select>

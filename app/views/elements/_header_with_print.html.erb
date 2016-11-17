@@ -1,0 +1,12 @@
+<% excel_icon = nil_or_undefined?(excel_icon) ? nil : excel_icon %>
+<h1>
+  <%= header %>
+  <% if params[:plain_layout] != "true" %>    
+    <a href="<%= url_for(params.merge(:plain_layout => "true")) %>" target="_blank" class="header-print-btn" data-skip-pjax="true"><i class="fa fa-print"></i></a>    
+    
+    <% if excel_icon == true %>
+
+    	<a href="<%= url_for({format: :xls, params: params}) %>" class="header-print-btn" data-skip-pjax="true"><i class="fa fa-file-excel-o"></i></a>        
+    <% end %>
+  <% end %>
+</h1>

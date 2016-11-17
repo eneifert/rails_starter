@@ -1,0 +1,12 @@
+<!-- f, key, file, img_classes -->
+<span class="btn btn-default btn-file" style="">
+    <%= _('Choose Image...') %> <%= f.file_field key, :'data-preview-id' => "#{key.to_s}-preview", :'class' => "image-upload-field" %>
+</span>
+
+
+<div id="<%= "#{key.to_s}-preview" %>" class="uploaded-image">
+	
+  <img src="<%= file.url %>" class="image-sample <%= img_classes %>">
+  <div class="delete-image btn btn-danger btn-sm <%= file.exists? ? '' : 'hidden' %>"><%= _('Remove') %></div>
+  <%= f.hidden_field("delete_#{key.to_s}".to_sym, value: false) %>  
+</div>

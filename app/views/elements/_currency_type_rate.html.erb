@@ -1,0 +1,17 @@
+<div class="col-sm-4 col-md-2">
+	<div class="form-group">                          
+      <label for="currency_type"><%= _('Currency Type') %></label>      
+      <select class="currency-type-picker selectpicker show-tick" data-width="100%" data-selected="<%= currency_type_value %>" name="<%= model_name %>[currency_type]">			
+			<option value="kyrgyz_som"><%= _('Kyrgyz som') %></option>			
+			<option value="kazak_tenge"><%= _('Kazak tenge') %></option>			
+			<option value="russian_ruble"><%= _('Russian Ruble') %></option>			
+			<option value="us_dollar"><%= _('US Dollar') %></option>			
+			<option value="euro"><%= _('Euro') %></option>
+			<option value="british_pound"><%= _('British Pound') %></option>
+	   </select>      
+	</div>
+</div>
+<div class="col-sm-4 col-md-2">
+	<label for="currency_rate"><%= _('Currency Rate') %></label>
+	<input class="form-control" type="text" value="<%= currency_rate_value %>" name="<%= model_name %>[currency_rate]">
+</div>
